@@ -1,3 +1,5 @@
+// Legacy default — was Theta's root before multi-site support. New code should
+// use the active site's root from the manifest instead.
 export const ROOT = 'https://www.theta.co.nz'
 
 export function urlPath(url) {
@@ -29,8 +31,20 @@ export const SECTION_COLORS = {
   contact: '#facc15',
   'contact-us': '#facc15',
 }
+// Stable hash → hue, so unknown sections still get a consistent colour.
+function hashToHue(s) {
+  let h = 0
+  for (let i = 0; i < s.length; i++) {
+    h = (h << 5) - h + s.charCodeAt(i)
+    h |= 0
+  }
+  return ((h % 360) + 360) % 360
+}
+
 export function colorFor(section) {
-  return SECTION_COLORS[section] || '#9ca3af'
+  if (SECTION_COLORS[section]) return SECTION_COLORS[section]
+  if (!section) return '#9ca3af'
+  return `hsl(${hashToHue(section)}, 62%, 66%)`
 }
 
 // Build a tree from a flat list of pages, keyed by their URL path.

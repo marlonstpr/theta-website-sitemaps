@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import {
-  ROOT,
+  urlPath,
   sectionOf,
   colorFor,
   SECTION_COLORS,
@@ -16,8 +16,15 @@ const NODE_R = 11
 const MARGIN = { top: 44, right: 400, bottom: 60, left: 44 }
 
 export default function App() {
+  const [manifest, setManifest] = useState(null)
+  const [activeSite, setActiveSite] = usePersistedState(
+    'theta-sitemap.activeSite',
+    null,
+  )
   const [graph, setGraph] = useState(null)
   const [error, setError] = useState(null)
+  const [siteOpen, setSiteOpen] = useState(false)
+  const siteRef = useRef(null)
   // overrides: full-path -> true (force collapsed) | false (force expanded)
   const [overrides, setOverrides] = useState(() => new Map())
   const [selected, setSelected] = useState(null) // tree node
@@ -65,15 +72,64 @@ export default function App() {
     return () => document.removeEventListener('mousedown', onDoc)
   }, [filtersOpen])
 
+  // Step 1: load the multi-site manifest.
   useEffect(() => {
-    fetch(`${import.meta.env.BASE_URL}graph.json`)
+    fetch(`${import.meta.env.BASE_URL}sites.json`)
       .then((r) => {
-        if (!r.ok) throw new Error(`HTTP ${r.status}`)
+        if (!r.ok) throw new Error(`Could not load sites.json (HTTP ${r.status})`)
+        return r.json()
+      })
+      .then((m) => setManifest(m))
+      .catch((e) => setError(String(e)))
+  }, [])
+
+  // Make sure activeSite is valid against the loaded manifest.
+  useEffect(() => {
+    if (!manifest) return
+    if (!activeSite || !manifest.sites?.[activeSite]) {
+      setActiveSite(manifest.default || Object.keys(manifest.sites || {})[0])
+    }
+  }, [manifest]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Step 2: whenever activeSite or manifest changes, load that site's graph.
+  useEffect(() => {
+    if (!manifest || !activeSite || !manifest.sites?.[activeSite]) return
+    const site = manifest.sites[activeSite]
+    setGraph(null)
+    setSelected(null)
+    initialFitRef.current = false
+    fetch(`${import.meta.env.BASE_URL}${site.data}`)
+      .then((r) => {
+        if (!r.ok)
+          throw new Error(`Could not load ${site.data} (HTTP ${r.status})`)
         return r.json()
       })
       .then(setGraph)
       .catch((e) => setError(String(e)))
-  }, [])
+  }, [manifest, activeSite]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Per-site filter config (broken / untitled markers).
+  const siteFilters = useMemo(() => {
+    if (!manifest || !activeSite) return null
+    return manifest.sites?.[activeSite]?.filters || null
+  }, [manifest, activeSite])
+
+  // Close the site-picker popover when clicking outside.
+  useEffect(() => {
+    if (!siteOpen) return
+    function onDoc(e) {
+      if (!siteRef.current) return
+      if (!siteRef.current.contains(e.target)) setSiteOpen(false)
+    }
+    document.addEventListener('mousedown', onDoc)
+    return () => document.removeEventListener('mousedown', onDoc)
+  }, [siteOpen])
+
+  // Site's display root (used in detail panel links). Falls back to graph meta.
+  const siteRoot = useMemo(() => {
+    if (!manifest || !activeSite) return ''
+    return manifest.sites?.[activeSite]?.url || ''
+  }, [manifest, activeSite])
 
   // Build full tree from pages
   const fullTree = useMemo(() => (graph ? buildTree(graph.nodes) : null), [graph])
@@ -82,17 +138,17 @@ export default function App() {
     [fullTree],
   )
 
-  // Counts of hide-able pages, recomputed when graph changes.
+  // Counts of hide-able pages, recomputed when graph or filter config changes.
   const hideableCounts = useMemo(() => {
     if (!graph) return { broken: 0, untitled: 0 }
     let broken = 0
     let untitled = 0
     for (const n of graph.nodes) {
-      if (isBrokenPage(n)) broken++
-      else if (isUntitledPage(n)) untitled++
+      if (isBrokenPage(n, siteFilters)) broken++
+      else if (isUntitledPage(n, siteFilters)) untitled++
     }
     return { broken, untitled }
-  }, [graph])
+  }, [graph, siteFilters])
 
   // Tree with hidden pages stripped out (subtrees of hidden nodes are dropped too).
   const filteredTree = useMemo(() => {
@@ -100,8 +156,8 @@ export default function App() {
     if (!hideBroken && !hideUntitled) return fullTree
     function shouldHide(page) {
       if (!page) return false
-      if (hideBroken && isBrokenPage(page)) return true
-      if (hideUntitled && isUntitledPage(page)) return true
+      if (hideBroken && isBrokenPage(page, siteFilters)) return true
+      if (hideUntitled && isUntitledPage(page, siteFilters)) return true
       return false
     }
     function visit(node) {
@@ -114,7 +170,7 @@ export default function App() {
       return { ...node, children: kids }
     }
     return visit(fullTree)
-  }, [fullTree, hideBroken, hideUntitled])
+  }, [fullTree, hideBroken, hideUntitled, siteFilters])
 
   // Default: collapse everything at depth >= 1 so user starts with a clean overview.
   const defaultCollapsed = useMemo(() => {
@@ -466,7 +522,7 @@ export default function App() {
     setOverrides(all)
   }
 
-  if (error) return <div className="app"><div className="state">Error loading graph.json: {error}</div></div>
+  if (error) return <div className="app"><div className="state">Error: {error}</div></div>
   if (!graph || !layout || !layoutBounds) return <div className="app"><div className="state">Loading sitemap…</div></div>
 
   return (
@@ -482,7 +538,50 @@ export default function App() {
             </svg>
           </div>
           <div className="brand-text">
-            <div className="brand-title">Theta sitemap</div>
+            <div className="site-picker" ref={siteRef}>
+              <button
+                className={'site-picker-btn' + (siteOpen ? ' open' : '')}
+                onClick={() => setSiteOpen((v) => !v)}
+                aria-haspopup="listbox"
+                aria-expanded={siteOpen}
+              >
+                <span className="brand-title">
+                  {manifest?.sites?.[activeSite]?.name || 'Sitemap'}
+                </span>
+                <svg
+                  className={'chev' + (siteOpen ? ' up' : '')}
+                  viewBox="0 0 24 24" width="14" height="14"
+                  fill="none" stroke="currentColor" strokeWidth="2.4"
+                  strokeLinecap="round" strokeLinejoin="round"
+                >
+                  <path d="M6 9l6 6 6-6" />
+                </svg>
+              </button>
+              {siteOpen && manifest?.sites && (
+                <div className="popover site-popover" role="listbox">
+                  <div className="popover-heading">Site</div>
+                  {Object.entries(manifest.sites).map(([id, s]) => (
+                    <button
+                      key={id}
+                      role="option"
+                      aria-selected={activeSite === id}
+                      className={'site-row' + (activeSite === id ? ' active' : '')}
+                      onClick={() => {
+                        setActiveSite(id)
+                        setSiteOpen(false)
+                      }}
+                    >
+                      <div className="site-row-name">{s.name}</div>
+                      <div className="site-row-meta">
+                        {s.pages.toLocaleString()} pages ·{' '}
+                        {s.edges.toLocaleString()} links
+                      </div>
+                      <div className="site-row-url">{s.url}</div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
             <div className="brand-sub">
               <span className="pill">{graph.meta.pages} pages</span>
               <span className="pill">{graph.meta.edges.toLocaleString()} links</span>
@@ -1009,7 +1108,7 @@ export default function App() {
                         target="_blank"
                         rel="noreferrer"
                       >
-                        {selected.data.page.url.replace(ROOT, '') || '/'}
+                        {(siteRoot ? selected.data.page.url.replace(siteRoot, '') : urlPath(selected.data.page.url)) || '/'}
                         <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M14 4h6v6M20 4l-9 9M19 13v6H5V5h6" />
                         </svg>
@@ -1314,15 +1413,28 @@ function dedupePairs(list, byFrom = false) {
   return out
 }
 
-// A page is "broken" when its title is the soft-404 marker.
-function isBrokenPage(page) {
+// A page is "broken" when its title matches any of the site's soft-404 markers.
+// Patterns are case-insensitive regexes loaded from the manifest.
+function isBrokenPage(page, siteFilters) {
   if (!page) return false
-  return /^not found$/i.test((page.title || '').trim())
+  const patterns = siteFilters?.brokenTitlePatterns
+  if (!patterns || patterns.length === 0) return false
+  const title = (page.title || '').trim()
+  if (!title) return false
+  return patterns.some((p) => {
+    try {
+      return new RegExp(p, 'i').test(title)
+    } catch {
+      return false
+    }
+  })
 }
-// A page is "untitled" when the CMS fell back to the bare site name.
-function isUntitledPage(page) {
+// A page is "untitled" when the CMS fell back to a bare site-name title.
+function isUntitledPage(page, siteFilters) {
   if (!page) return false
-  return (page.title || '').trim() === 'Theta'
+  const titles = siteFilters?.untitledTitles
+  if (!titles || titles.length === 0) return false
+  return titles.includes((page.title || '').trim())
 }
 
 function findByFull(root, full) {

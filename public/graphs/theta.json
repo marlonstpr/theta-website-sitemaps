@@ -1,10 +1,13 @@
 {
   "meta": {
+    "siteId": "theta",
+    "siteName": "Theta",
     "root": "https://www.theta.co.nz/",
-    "crawledAt": "2026-05-12T22:59:58.173Z",
+    "scopePrefix": null,
+    "crawledAt": "2026-05-13T06:54:16.990Z",
     "pages": 500,
     "nodes": 629,
-    "edges": 27886
+    "edges": 27912
   },
   "nodes": [
     {
@@ -13,7 +16,7 @@
       "title": "Theta: Cloud Transformation, Data & Insights, Cyber Security, Dynamics 365, GenAI",
       "depth": 0,
       "status": 200,
-      "inDegree": 445,
+      "inDegree": 458,
       "outDegree": 127
     },
     {
@@ -2260,119 +2263,119 @@
     {
       "id": "https://www.theta.co.nz/careers/application-architect-net--azure-30d42168-2ab3-4906-a0d6-b873ed3b4b56",
       "url": "https://www.theta.co.nz/careers/application-architect-net--azure-30d42168-2ab3-4906-a0d6-b873ed3b4b56",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-3dd9cc2f-9251-4cf1-b9b2-10599bd877a0",
       "url": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-3dd9cc2f-9251-4cf1-b9b2-10599bd877a0",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-business-central-technical-consultant-295f2258-be38-4f16-bcf4-3a9541096423",
       "url": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-business-central-technical-consultant-295f2258-be38-4f16-bcf4-3a9541096423",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-bc85a145-3026-4310-bb39-799da18ff11f",
       "url": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-bc85a145-3026-4310-bb39-799da18ff11f",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-contract-17cd29ec-85aa-4ba5-8732-706f629a7156",
       "url": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-contract-17cd29ec-85aa-4ba5-8732-706f629a7156",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-97e08195-df8c-4e26-9dfc-d54740ef30bf",
       "url": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-97e08195-df8c-4e26-9dfc-d54740ef30bf",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/microsoft-dynamics-365-customer-engagement-consultant-0bc045d3-6263-4c1b-98c4-f0c412b996af",
       "url": "https://www.theta.co.nz/careers/microsoft-dynamics-365-customer-engagement-consultant-0bc045d3-6263-4c1b-98c4-f0c412b996af",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/assistant-accountant-178ebfef-0cb6-4c3d-8760-b7c5e25aec01",
       "url": "https://www.theta.co.nz/careers/assistant-accountant-178ebfef-0cb6-4c3d-8760-b7c5e25aec01",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/application-architect-net--azure---contract-c44c2e29-2a46-4ae7-9e87-a3cf31d3dfbb",
       "url": "https://www.theta.co.nz/careers/application-architect-net--azure---contract-c44c2e29-2a46-4ae7-9e87-a3cf31d3dfbb",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-customer-engagement-consultant-e27c4642-98b8-41ed-bb68-4ef123fc1e46",
       "url": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-customer-engagement-consultant-e27c4642-98b8-41ed-bb68-4ef123fc1e46",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/lead-full-stack-developer-fd008912-2e3d-4ed3-8704-5c3d0d79bc3b",
       "url": "https://www.theta.co.nz/careers/lead-full-stack-developer-fd008912-2e3d-4ed3-8704-5c3d0d79bc3b",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-271625e1-26a1-42c9-ba98-1424310cee1b",
       "url": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-271625e1-26a1-42c9-ba98-1424310cee1b",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-6ba72a39-05c0-4182-98da-68075e9da1df",
       "url": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-6ba72a39-05c0-4182-98da-68075e9da1df",
-      "title": "Theta",
+      "title": "Not Found",
       "depth": 0,
       "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
+      "inDegree": 1,
+      "outDegree": 2
     },
     {
       "id": "https://www.theta.co.nz/annual-reports/2024-2025",
@@ -12588,11 +12591,11 @@
     },
     {
       "source": "https://www.theta.co.nz/solutions/industry-solutions/overview",
-      "target": "https://www.theta.co.nz/case-study/intelligent-insights-at-scale-improve-efficiency-for-global-logistics-leader"
+      "target": "https://www.theta.co.nz/post/the-rising-popularity-of-dynamics-365-field-service"
     },
     {
       "source": "https://www.theta.co.nz/solutions/industry-solutions/overview",
-      "target": "https://www.theta.co.nz/post/the-rising-popularity-of-dynamics-365-field-service"
+      "target": "https://www.theta.co.nz/case-study/intelligent-insights-at-scale-improve-efficiency-for-global-logistics-leader"
     },
     {
       "source": "https://www.theta.co.nz/solutions/industry-solutions/overview",
@@ -64557,6 +64560,110 @@
     {
       "source": "https://www.theta.co.nz/post/jims-inside-scoop-from-the-microsoft-ai-tour-2024",
       "target": "https://www.theta.co.nz/terms-and-conditions"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/application-architect-net--azure-30d42168-2ab3-4906-a0d6-b873ed3b4b56",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/application-architect-net--azure-30d42168-2ab3-4906-a0d6-b873ed3b4b56",
+      "target": "https://www.theta.co.nz/careers/application-architect-net--azure-30d42168-2ab3-4906-a0d6-b873ed3b4b56"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-3dd9cc2f-9251-4cf1-b9b2-10599bd877a0",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-3dd9cc2f-9251-4cf1-b9b2-10599bd877a0",
+      "target": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-3dd9cc2f-9251-4cf1-b9b2-10599bd877a0"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-business-central-technical-consultant-295f2258-be38-4f16-bcf4-3a9541096423",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-business-central-technical-consultant-295f2258-be38-4f16-bcf4-3a9541096423",
+      "target": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-business-central-technical-consultant-295f2258-be38-4f16-bcf4-3a9541096423"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-bc85a145-3026-4310-bb39-799da18ff11f",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-bc85a145-3026-4310-bb39-799da18ff11f",
+      "target": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-bc85a145-3026-4310-bb39-799da18ff11f"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-contract-17cd29ec-85aa-4ba5-8732-706f629a7156",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-contract-17cd29ec-85aa-4ba5-8732-706f629a7156",
+      "target": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-contract-17cd29ec-85aa-4ba5-8732-706f629a7156"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-97e08195-df8c-4e26-9dfc-d54740ef30bf",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-97e08195-df8c-4e26-9dfc-d54740ef30bf",
+      "target": "https://www.theta.co.nz/careers/lead-full-stack-developer---security-focus-97e08195-df8c-4e26-9dfc-d54740ef30bf"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/microsoft-dynamics-365-customer-engagement-consultant-0bc045d3-6263-4c1b-98c4-f0c412b996af",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/microsoft-dynamics-365-customer-engagement-consultant-0bc045d3-6263-4c1b-98c4-f0c412b996af",
+      "target": "https://www.theta.co.nz/careers/microsoft-dynamics-365-customer-engagement-consultant-0bc045d3-6263-4c1b-98c4-f0c412b996af"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/assistant-accountant-178ebfef-0cb6-4c3d-8760-b7c5e25aec01",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/assistant-accountant-178ebfef-0cb6-4c3d-8760-b7c5e25aec01",
+      "target": "https://www.theta.co.nz/careers/assistant-accountant-178ebfef-0cb6-4c3d-8760-b7c5e25aec01"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/application-architect-net--azure---contract-c44c2e29-2a46-4ae7-9e87-a3cf31d3dfbb",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/application-architect-net--azure---contract-c44c2e29-2a46-4ae7-9e87-a3cf31d3dfbb",
+      "target": "https://www.theta.co.nz/careers/application-architect-net--azure---contract-c44c2e29-2a46-4ae7-9e87-a3cf31d3dfbb"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-customer-engagement-consultant-e27c4642-98b8-41ed-bb68-4ef123fc1e46",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-customer-engagement-consultant-e27c4642-98b8-41ed-bb68-4ef123fc1e46",
+      "target": "https://www.theta.co.nz/careers/lead-microsoft-dynamics-365-customer-engagement-consultant-e27c4642-98b8-41ed-bb68-4ef123fc1e46"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-full-stack-developer-fd008912-2e3d-4ed3-8704-5c3d0d79bc3b",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/lead-full-stack-developer-fd008912-2e3d-4ed3-8704-5c3d0d79bc3b",
+      "target": "https://www.theta.co.nz/careers/lead-full-stack-developer-fd008912-2e3d-4ed3-8704-5c3d0d79bc3b"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-271625e1-26a1-42c9-ba98-1424310cee1b",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-271625e1-26a1-42c9-ba98-1424310cee1b",
+      "target": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-271625e1-26a1-42c9-ba98-1424310cee1b"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-6ba72a39-05c0-4182-98da-68075e9da1df",
+      "target": "https://www.theta.co.nz/"
+    },
+    {
+      "source": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-6ba72a39-05c0-4182-98da-68075e9da1df",
+      "target": "https://www.theta.co.nz/careers/licensing-and-optimisation-specialist-6ba72a39-05c0-4182-98da-68075e9da1df"
     },
     {
       "source": "https://www.theta.co.nz/annual-reports/2024-2025",
