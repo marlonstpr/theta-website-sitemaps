@@ -57,6 +57,9 @@ export default function App() {
   // When a toggle changes the layout, stash the full-path here so we can pan
   // to it after the new layout is rendered.
   const pendingPanRef = useRef(null)
+  // Set this when the next layout change should trigger a full re-fit
+  // (e.g. after Expand all / Collapse all).
+  const pendingRefitRef = useRef(false)
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [transform, setTransform] = useState(d3.zoomIdentity)
   const [containerDims, setContainerDims] = useState({ w: 800, h: 600 })
@@ -437,13 +440,29 @@ export default function App() {
   }, [layoutBounds, treeW, treeH, containerDims])
 
   // Initial fit when both layout and viewport size are known.
+  // We measure the viewport directly via getBoundingClientRect rather than the
+  // cached `containerDims` state — the state can lag by one render after mount
+  // (ResizeObserver's setState is async), and the fit must use the *real* size.
   useEffect(() => {
     if (initialFitRef.current) return
     if (!svgRef.current || !zoomRef.current || !layoutBounds) return
-    if (containerDims.w < 200 || containerDims.h < 200) return
+    if (!viewportRef.current) return
+    const rect = viewportRef.current.getBoundingClientRect()
+    if (rect.width < 200 || rect.height < 200) return
     initialFitRef.current = true
-    d3.select(svgRef.current).call(zoomRef.current.transform, fitTransform())
-  }, [layoutBounds, containerDims, fitTransform])
+    const pad = 40
+    const k = Math.min(
+      (rect.width - pad * 2) / treeW,
+      (rect.height - pad * 2) / treeH,
+      1,
+    )
+    const tx = (rect.width - treeW * k) / 2
+    const ty = (rect.height - treeH * k) / 2
+    d3.select(svgRef.current).call(
+      zoomRef.current.transform,
+      d3.zoomIdentity.translate(tx, ty).scale(k),
+    )
+  }, [layoutBounds, containerDims, treeW, treeH])
 
   // Pan to selected node — keep the user's current zoom level (no auto zoom-in).
   useEffect(() => {
@@ -462,6 +481,18 @@ export default function App() {
   // The layout has just updated, so we look up the node's new position.
   // Zoom is preserved as well.
   useEffect(() => {
+    // Full re-fit takes priority over a single-node pan.
+    if (pendingRefitRef.current) {
+      pendingRefitRef.current = false
+      pendingPanRef.current = null
+      if (svgRef.current && zoomRef.current && layoutBounds) {
+        d3.select(svgRef.current)
+          .transition()
+          .duration(450)
+          .call(zoomRef.current.transform, fitTransform())
+      }
+      return
+    }
     const targetFull = pendingPanRef.current
     if (!targetFull) return
     pendingPanRef.current = null
@@ -510,6 +541,7 @@ export default function App() {
   function expandAll() {
     const m = new Map()
     defaultCollapsed.forEach((f) => m.set(f, false))
+    pendingRefitRef.current = true
     setOverrides(m)
   }
   function collapseAll() {
@@ -520,6 +552,7 @@ export default function App() {
       n.children.forEach((c) => visit(c, depth + 1))
     }
     visit(fullTree, 0)
+    pendingRefitRef.current = true
     setOverrides(all)
   }
 
