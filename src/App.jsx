@@ -445,11 +445,11 @@ export default function App() {
     d3.select(svgRef.current).call(zoomRef.current.transform, fitTransform())
   }, [layoutBounds, containerDims, fitTransform])
 
-  // Pan/zoom to selected node so it's roughly centered.
+  // Pan to selected node — keep the user's current zoom level (no auto zoom-in).
   useEffect(() => {
     if (!selected || !svgRef.current || !zoomRef.current || !layoutBounds) return
     const { x, y } = nodeXY(selected)
-    const k = Math.max(transform.k, 0.9)
+    const k = transform.k
     const tx = containerDims.w * 0.35 - x * k
     const ty = containerDims.h / 2 - y * k
     d3.select(svgRef.current)
@@ -460,6 +460,7 @@ export default function App() {
 
   // After a collapse/expand toggle, pan to keep the toggled node in view.
   // The layout has just updated, so we look up the node's new position.
+  // Zoom is preserved as well.
   useEffect(() => {
     const targetFull = pendingPanRef.current
     if (!targetFull) return
@@ -471,7 +472,7 @@ export default function App() {
     })
     if (!target) return
     const { x, y } = nodeXY(target)
-    const k = Math.max(transform.k, 0.9)
+    const k = transform.k
     const tx = containerDims.w * 0.35 - x * k
     const ty = containerDims.h / 2 - y * k
     d3.select(svgRef.current)
