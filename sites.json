@@ -1,0 +1,40 @@
+{
+  "sites": {
+    "theta": {
+      "name": "Theta",
+      "url": "https://www.theta.co.nz",
+      "scopePrefix": null,
+      "data": "graphs/theta.json",
+      "crawledAt": "2026-05-13T06:54:16.990Z",
+      "pages": 500,
+      "edges": 27912,
+      "filters": {
+        "brokenTitlePatterns": [
+          "^not found$"
+        ],
+        "untitledTitles": [
+          "Theta"
+        ]
+      }
+    },
+    "datacom": {
+      "name": "Datacom NZ",
+      "url": "https://datacom.com/nz/en",
+      "scopePrefix": "/nz/en",
+      "data": "graphs/datacom.json",
+      "crawledAt": "2026-05-13T07:47:11.002Z",
+      "pages": 800,
+      "edges": 100499,
+      "filters": {
+        "brokenTitlePatterns": [
+          "^page not found",
+          "not found"
+        ],
+        "untitledTitles": [
+          "Datacom"
+        ]
+      }
+    }
+  },
+  "default": "theta"
+}
