@@ -10,10 +10,10 @@ import {
 } from './lib/sitemap.js'
 import './App.css'
 
-const ROW_H = 34
-const COL_W = 300
-const NODE_R = 8
-const MARGIN = { top: 28, right: 340, bottom: 40, left: 28 }
+const ROW_H = 40
+const COL_W = 680
+const NODE_R = 11
+const MARGIN = { top: 44, right: 400, bottom: 60, left: 44 }
 
 export default function App() {
   const [graph, setGraph] = useState(null)
@@ -22,8 +22,22 @@ export default function App() {
   const [overrides, setOverrides] = useState(() => new Map())
   const [selected, setSelected] = useState(null) // tree node
   const [search, setSearch] = useState('')
-  const [showAllCrossLinks, setShowAllCrossLinks] = useState(false)
-  const [uniqueOnly, setUniqueOnly] = useState(true)
+  const [showAllCrossLinks, setShowAllCrossLinks] = usePersistedState(
+    'theta-sitemap.filters.showAllCrossLinks',
+    false,
+  )
+  const [uniqueOnly, setUniqueOnly] = usePersistedState(
+    'theta-sitemap.filters.uniqueOnly',
+    true,
+  )
+  const [hideBroken, setHideBroken] = usePersistedState(
+    'theta-sitemap.filters.hideBroken',
+    false,
+  )
+  const [hideUntitled, setHideUntitled] = usePersistedState(
+    'theta-sitemap.filters.hideUntitled',
+    false,
+  )
   // Filter chips for the inbound/outbound lists, scoped by selected node so
   // switching pages naturally clears them. Key: `${nodeFull}:out|in` → section.
   const [filterByKey, setFilterByKey] = useState({})
@@ -32,8 +46,24 @@ export default function App() {
   const svgRef = useRef(null)
   const zoomRef = useRef(null)
   const initialFitRef = useRef(false)
+  const filtersRef = useRef(null)
+  // When a toggle changes the layout, stash the full-path here so we can pan
+  // to it after the new layout is rendered.
+  const pendingPanRef = useRef(null)
+  const [filtersOpen, setFiltersOpen] = useState(false)
   const [transform, setTransform] = useState(d3.zoomIdentity)
   const [containerDims, setContainerDims] = useState({ w: 800, h: 600 })
+
+  // Close the filters popover when clicking outside it.
+  useEffect(() => {
+    if (!filtersOpen) return
+    function onDoc(e) {
+      if (!filtersRef.current) return
+      if (!filtersRef.current.contains(e.target)) setFiltersOpen(false)
+    }
+    document.addEventListener('mousedown', onDoc)
+    return () => document.removeEventListener('mousedown', onDoc)
+  }, [filtersOpen])
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}graph.json`)
@@ -51,6 +81,40 @@ export default function App() {
     () => (fullTree ? indexByPage(fullTree) : null),
     [fullTree],
   )
+
+  // Counts of hide-able pages, recomputed when graph changes.
+  const hideableCounts = useMemo(() => {
+    if (!graph) return { broken: 0, untitled: 0 }
+    let broken = 0
+    let untitled = 0
+    for (const n of graph.nodes) {
+      if (isBrokenPage(n)) broken++
+      else if (isUntitledPage(n)) untitled++
+    }
+    return { broken, untitled }
+  }, [graph])
+
+  // Tree with hidden pages stripped out (subtrees of hidden nodes are dropped too).
+  const filteredTree = useMemo(() => {
+    if (!fullTree) return null
+    if (!hideBroken && !hideUntitled) return fullTree
+    function shouldHide(page) {
+      if (!page) return false
+      if (hideBroken && isBrokenPage(page)) return true
+      if (hideUntitled && isUntitledPage(page)) return true
+      return false
+    }
+    function visit(node) {
+      if (shouldHide(node.page)) return null
+      const kids = []
+      for (const c of node.children) {
+        const v = visit(c)
+        if (v) kids.push(v)
+      }
+      return { ...node, children: kids }
+    }
+    return visit(fullTree)
+  }, [fullTree, hideBroken, hideUntitled])
 
   // Default: collapse everything at depth >= 1 so user starts with a clean overview.
   const defaultCollapsed = useMemo(() => {
@@ -76,13 +140,13 @@ export default function App() {
 
   // d3.hierarchy + d3.tree layout, respecting collapsed state.
   const layout = useMemo(() => {
-    if (!fullTree) return null
-    const treeRoot = d3.hierarchy(fullTree, (n) =>
+    if (!filteredTree) return null
+    const treeRoot = d3.hierarchy(filteredTree, (n) =>
       collapsed.has(n.full) ? null : n.children,
     )
     d3.tree().nodeSize([ROW_H, COL_W])(treeRoot)
     return treeRoot
-  }, [fullTree, collapsed])
+  }, [filteredTree, collapsed])
 
   // Find min/max x to determine height; min/max y for width.
   const layoutBounds = useMemo(() => {
@@ -338,6 +402,28 @@ export default function App() {
       .call(zoomRef.current.transform, d3.zoomIdentity.translate(tx, ty).scale(k))
   }, [selected]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  // After a collapse/expand toggle, pan to keep the toggled node in view.
+  // The layout has just updated, so we look up the node's new position.
+  useEffect(() => {
+    const targetFull = pendingPanRef.current
+    if (!targetFull) return
+    pendingPanRef.current = null
+    if (!layout || !svgRef.current || !zoomRef.current) return
+    let target = null
+    layout.each((n) => {
+      if (n.data.full === targetFull) target = n
+    })
+    if (!target) return
+    const { x, y } = nodeXY(target)
+    const k = Math.max(transform.k, 0.9)
+    const tx = containerDims.w * 0.35 - x * k
+    const ty = containerDims.h / 2 - y * k
+    d3.select(svgRef.current)
+      .transition()
+      .duration(400)
+      .call(zoomRef.current.transform, d3.zoomIdentity.translate(tx, ty).scale(k))
+  }, [layout]) // eslint-disable-line react-hooks/exhaustive-deps
+
   function resetView() {
     if (!svgRef.current || !zoomRef.current) return
     d3.select(svgRef.current)
@@ -356,6 +442,7 @@ export default function App() {
   function toggleCollapsed(node) {
     const full = node.data.full
     const currentlyCollapsed = collapsed.has(full)
+    pendingPanRef.current = full
     setOverrides((prev) => {
       const next = new Map(prev)
       next.set(full, !currentlyCollapsed)
@@ -441,35 +528,101 @@ export default function App() {
             </button>
           </div>
 
-          <label
-            className={'switch' + (uniqueOnly ? ' on' : '')}
-            title="When on, count distinct pages once (a footer link shared across many pages = 1). When off, count every occurrence."
-          >
-            <input
-              type="checkbox"
-              checked={uniqueOnly}
-              onChange={(e) => setUniqueOnly(e.target.checked)}
-            />
-            <span className="switch-track">
-              <span className="switch-thumb" />
-            </span>
-            <span className="switch-label">Unique links only</span>
-          </label>
+          {(() => {
+            const activeCount =
+              (uniqueOnly ? 0 : 1) +
+              (showAllCrossLinks ? 1 : 0) +
+              (hideBroken ? 1 : 0) +
+              (hideUntitled ? 1 : 0)
+            return (
+              <div className="filters-wrap" ref={filtersRef}>
+                <button
+                  className={'btn filters-btn' + (filtersOpen ? ' open' : '') + (activeCount > 0 ? ' has-active' : '')}
+                  onClick={() => setFiltersOpen((v) => !v)}
+                  aria-haspopup="true"
+                  aria-expanded={filtersOpen}
+                >
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M4 6h16M7 12h10M10 18h4" />
+                  </svg>
+                  Filters
+                  {activeCount > 0 && (
+                    <span className="filters-badge">{activeCount}</span>
+                  )}
+                  <svg
+                    viewBox="0 0 24 24"
+                    width="12"
+                    height="12"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2.4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className={'chev' + (filtersOpen ? ' up' : '')}
+                  >
+                    <path d="M6 9l6 6 6-6" />
+                  </svg>
+                </button>
 
-          <label
-            className={'switch' + (showAllCrossLinks ? ' on' : '')}
-            title="Overlay every cross-link in the visible tree"
-          >
-            <input
-              type="checkbox"
-              checked={showAllCrossLinks}
-              onChange={(e) => setShowAllCrossLinks(e.target.checked)}
-            />
-            <span className="switch-track">
-              <span className="switch-thumb" />
-            </span>
-            <span className="switch-label">Show all cross‑links</span>
-          </label>
+                {filtersOpen && (
+                  <div className="popover" role="dialog">
+                    <div className="popover-section">
+                      <div className="popover-heading">Display</div>
+                      <PopoverToggle
+                        checked={uniqueOnly}
+                        onChange={setUniqueOnly}
+                        title="Unique links only"
+                        description="Counts each linked page once instead of every occurrence on the source page."
+                      />
+                      <PopoverToggle
+                        checked={showAllCrossLinks}
+                        onChange={setShowAllCrossLinks}
+                        title="Show all cross-links"
+                        description="Faintly overlay every cross-link between visible tree branches."
+                      />
+                    </div>
+
+                    <div className="popover-divider" />
+
+                    <div className="popover-section">
+                      <div className="popover-heading">Hide pages</div>
+                      <PopoverToggle
+                        checked={hideBroken}
+                        onChange={setHideBroken}
+                        title="Broken"
+                        countLabel={hideableCounts.broken}
+                        description="Pages whose title is “Not Found” — soft-404 destinations of broken internal links."
+                      />
+                      <PopoverToggle
+                        checked={hideUntitled}
+                        onChange={setHideUntitled}
+                        title="Untitled"
+                        countLabel={hideableCounts.untitled}
+                        description="Pages whose title is just “Theta” — CMS pages without a custom title."
+                      />
+                    </div>
+
+                    {activeCount > 0 && (
+                      <>
+                        <div className="popover-divider" />
+                        <button
+                          className="popover-reset"
+                          onClick={() => {
+                            setUniqueOnly(true)
+                            setShowAllCrossLinks(false)
+                            setHideBroken(false)
+                            setHideUntitled(false)
+                          }}
+                        >
+                          Reset to defaults
+                        </button>
+                      </>
+                    )}
+                  </div>
+                )}
+              </div>
+            )
+          })()}
         </div>
       </header>
 
@@ -496,8 +649,8 @@ export default function App() {
                     key={i}
                     d={`M${a.x},${a.y}C${mx},${a.y} ${mx},${b.y} ${b.x},${b.y}`}
                     fill="none"
-                    stroke="#3a3d4d"
-                    strokeWidth="1.5"
+                    stroke="#4d5167"
+                    strokeWidth="2"
                   />
                 )
               })}
@@ -610,11 +763,11 @@ export default function App() {
 
                 // Hit rect dimensions: cover toggle + circle + label with a
                 // pleasant click area, capped so neighbouring columns don't fight.
-                const approxLabelWidth = text.length * 8.4 + (isCollapsed && subCount > 0 ? 32 : 0) + (!n.data.page ? 96 : 0)
-                const hitX = hasChildren ? -34 : -16
+                const approxLabelWidth = text.length * 9.2 + (isCollapsed && subCount > 0 ? 36 : 0) + (!n.data.page ? 106 : 0)
+                const hitX = hasChildren ? -56 : -22
                 const hitW = Math.min(
-                  (hasChildren ? 34 : 16) + NODE_R + 10 + approxLabelWidth + 16,
-                  COL_W - 18,
+                  (hasChildren ? 56 : 22) + NODE_R + 14 + approxLabelWidth + 20,
+                  COL_W - 24,
                 )
 
                 return (
@@ -627,10 +780,10 @@ export default function App() {
                     <rect
                       className="hit"
                       x={hitX}
-                      y={-ROW_H / 2 + 2}
+                      y={-ROW_H / 2 + 3}
                       width={hitW}
-                      height={ROW_H - 4}
-                      rx="6"
+                      height={ROW_H - 6}
+                      rx="8"
                       onClick={(e) => {
                         e.stopPropagation()
                         setSelected(n)
@@ -648,33 +801,33 @@ export default function App() {
                         {isCollapsed && (
                           <circle
                             className="toggle-halo"
-                            cx="-22"
+                            cx="-34"
                             cy="0"
-                            r="13"
+                            r="21"
                             fill={color}
                             opacity="0.18"
                           />
                         )}
                         <circle
                           className="toggle-disc"
-                          cx="-22"
+                          cx="-34"
                           cy="0"
-                          r="11"
+                          r="17"
                           fill={isCollapsed ? color : '#1a1d28'}
                           stroke={color}
-                          strokeWidth="1.8"
+                          strokeWidth="2.4"
                         />
                         {/* Chevron — ▶ when collapsed, ▼ when expanded */}
                         <path
                           className="toggle-chevron"
                           d={
                             isCollapsed
-                              ? 'M-24.5,-4.5 L-19,0 L-24.5,4.5'
-                              : 'M-26.5,-2 L-22,3 L-17.5,-2'
+                              ? 'M-37.5,-7 L-29,0 L-37.5,7'
+                              : 'M-41,-3.5 L-34,4.5 L-27,-3.5'
                           }
                           fill="none"
                           stroke={isCollapsed ? '#fff' : color}
-                          strokeWidth="2.4"
+                          strokeWidth="3"
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           style={{ pointerEvents: 'none' }}
@@ -685,27 +838,27 @@ export default function App() {
                       r={NODE_R}
                       fill={n.data.page ? color : '#1c1e26'}
                       stroke={color}
-                      strokeWidth={isSelected ? 3 : 1.5}
+                      strokeWidth={isSelected ? 3.4 : 1.8}
                       style={{ pointerEvents: 'none' }}
                     />
                     <text
-                      x={NODE_R + 10}
+                      x={NODE_R + 12}
                       y="0"
                       dominantBaseline="central"
-                      fontSize="16"
-                      fill={isSelected ? '#fff' : '#dde0e8'}
+                      fontSize="18"
+                      fill={isSelected ? '#fff' : '#e3e6ee'}
                       fontWeight={isSelected ? 600 : 500}
                       style={{ pointerEvents: 'none' }}
                     >
                       {text}
                       {isCollapsed && subCount > 0 && (
-                        <tspan fill="#7a8093" fontSize="14" fontWeight="500">
+                        <tspan fill="#7d8395" fontSize="15" fontWeight="500">
                           {' '}
                           ({subCount})
                         </tspan>
                       )}
                       {!n.data.page && (
-                        <tspan fill="#7a8093" fontSize="14" fontStyle="italic" fontWeight="400">
+                        <tspan fill="#7d8395" fontSize="15" fontStyle="italic" fontWeight="400">
                           {' '}
                           (intermediate)
                         </tspan>
@@ -725,7 +878,7 @@ export default function App() {
                 title="Zoom in"
                 aria-label="Zoom in"
               >
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
                   <path d="M12 6v12M6 12h12" />
                 </svg>
               </button>
@@ -736,7 +889,7 @@ export default function App() {
                 title="Zoom out"
                 aria-label="Zoom out"
               >
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
                   <path d="M6 12h12" />
                 </svg>
               </button>
@@ -747,7 +900,7 @@ export default function App() {
                 title="Fit to view"
                 aria-label="Fit to view"
               >
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M4 9V5h4M20 9V5h-4M4 15v4h4M20 15v4h-4" />
                 </svg>
               </button>
@@ -1102,6 +1255,53 @@ export default function App() {
   )
 }
 
+// Keeps a piece of UI state in sync with localStorage so it survives refresh.
+function usePersistedState(key, defaultValue) {
+  const [value, setValue] = useState(() => {
+    try {
+      const stored = window.localStorage.getItem(key)
+      if (stored === null) return defaultValue
+      return JSON.parse(stored)
+    } catch {
+      return defaultValue
+    }
+  })
+  useEffect(() => {
+    try {
+      window.localStorage.setItem(key, JSON.stringify(value))
+    } catch {
+      /* storage may be disabled or full; ignore */
+    }
+  }, [key, value])
+  return [value, setValue]
+}
+
+function PopoverToggle({ checked, onChange, title, description, countLabel }) {
+  return (
+    <label className={'popover-row' + (checked ? ' on' : '')}>
+      <div className="popover-row-text">
+        <div className="popover-row-title">
+          {title}
+          {countLabel != null && (
+            <span className="popover-row-count">{countLabel}</span>
+          )}
+        </div>
+        <div className="popover-row-desc">{description}</div>
+      </div>
+      <span className="switch-only">
+        <input
+          type="checkbox"
+          checked={checked}
+          onChange={(e) => onChange(e.target.checked)}
+        />
+        <span className="switch-track">
+          <span className="switch-thumb" />
+        </span>
+      </span>
+    </label>
+  )
+}
+
 function dedupePairs(list, byFrom = false) {
   const seen = new Set()
   const out = []
@@ -1112,6 +1312,17 @@ function dedupePairs(list, byFrom = false) {
     out.push(cl)
   }
   return out
+}
+
+// A page is "broken" when its title is the soft-404 marker.
+function isBrokenPage(page) {
+  if (!page) return false
+  return /^not found$/i.test((page.title || '').trim())
+}
+// A page is "untitled" when the CMS fell back to the bare site name.
+function isUntitledPage(page) {
+  if (!page) return false
+  return (page.title || '').trim() === 'Theta'
 }
 
 function findByFull(root, full) {
