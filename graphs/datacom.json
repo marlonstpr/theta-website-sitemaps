@@ -4,10 +4,10 @@
     "siteName": "Datacom NZ",
     "root": "https://datacom.com/nz/en/",
     "scopePrefix": "/nz/en",
-    "crawledAt": "2026-05-13T07:47:11.002Z",
+    "crawledAt": "2026-05-13T08:17:31.792Z",
     "pages": 800,
-    "nodes": 982,
-    "edges": 100499
+    "nodes": 980,
+    "edges": 100621
   },
   "nodes": [
     {
@@ -25,7 +25,7 @@
       "title": "Information Technology Consultants — Datacom: Always Solving",
       "depth": 0,
       "status": 200,
-      "inDegree": 776,
+      "inDegree": 777,
       "outDegree": 169
     },
     {
@@ -34,7 +34,7 @@
       "title": "Application Services - Adapt and Innovate",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -43,7 +43,7 @@
       "title": "Business platforms",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -88,7 +88,7 @@
       "title": "Data intelligence and process optimisation",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 140
     },
     {
@@ -169,7 +169,7 @@
       "title": "Artificial intelligence (AI) solutions | for business",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 154
     },
     {
@@ -178,7 +178,7 @@
       "title": "Software engineering — Help your development teams be the best",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 138
     },
     {
@@ -259,7 +259,7 @@
       "title": "Application modernisation",
       "depth": 0,
       "status": 200,
-      "inDegree": 776,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -268,7 +268,7 @@
       "title": "AI-powered engineering",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -277,7 +277,7 @@
       "title": "Artificial intelligence application modernisation",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -295,7 +295,7 @@
       "title": "AI foundations, governance and infrastructure | AI consultation",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -304,7 +304,7 @@
       "title": "AI for enterprise productivity | Workforce productivity",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -313,7 +313,7 @@
       "title": "New Zealand AI insights | AI trends New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 131
     },
     {
@@ -331,7 +331,7 @@
       "title": "AI Sandpit | Fast-track AI safely",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 148
     },
     {
@@ -340,7 +340,7 @@
       "title": "Asset lifecycle services New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -349,7 +349,7 @@
       "title": "Strategic procurement service provider New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 135
     },
     {
@@ -358,7 +358,7 @@
       "title": "Datacom Store: commercial IT procurement",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 154
     },
     {
@@ -367,7 +367,7 @@
       "title": "Hardware and device management",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 131
     },
     {
@@ -376,7 +376,7 @@
       "title": "Warehousing and logistics services | logistics outsourcing",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -385,7 +385,7 @@
       "title": "Vendor relationship management",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -403,7 +403,7 @@
       "title": "Cloud — Local Specialists & Enterprise Managed Cloud Services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 142
     },
     {
@@ -412,7 +412,7 @@
       "title": "Hybrid and private cloud",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 148
     },
     {
@@ -466,7 +466,7 @@
       "title": "Public cloud",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 137
     },
     {
@@ -475,7 +475,7 @@
       "title": "AWS cloud services | AWS cloud services",
       "depth": 0,
       "status": 200,
-      "inDegree": 13,
+      "inDegree": 14,
       "outDegree": 135
     },
     {
@@ -493,7 +493,7 @@
       "title": "Cloud connectivity",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 136
     },
     {
@@ -502,7 +502,7 @@
       "title": "Cloud FinOps",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -511,7 +511,7 @@
       "title": "Cloud innovation | for business",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 140
     },
     {
@@ -520,7 +520,7 @@
       "title": "Cloud migration",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 142
     },
     {
@@ -529,7 +529,7 @@
       "title": "Cloud operations",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 142
     },
     {
@@ -538,7 +538,7 @@
       "title": "Data protection",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 138
     },
     {
@@ -556,7 +556,7 @@
       "title": "Cloud Insights — Reports & Research On The Latest Trends",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -583,7 +583,7 @@
       "title": "Datacom’s fifth annual cloud report",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 131
     },
     {
@@ -610,7 +610,7 @@
       "title": "Customer experience — CX solutions",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 134
     },
     {
@@ -664,7 +664,7 @@
       "title": "Experience — Digital Transformation Services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -727,7 +727,7 @@
       "title": "Contact centres — Contact centre services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -736,7 +736,7 @@
       "title": "Experience Technology – Contact Centre Support",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 138
     },
     {
@@ -745,7 +745,7 @@
       "title": "Workforce Management Solutions For Efficiency & Productivity",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -754,7 +754,7 @@
       "title": "Business process outsourcing",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -763,7 +763,7 @@
       "title": "Frontline Assistance Support Tool (FAST)",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -790,7 +790,7 @@
       "title": "Digital experience — Starting With Human Needs",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 141
     },
     {
@@ -817,7 +817,7 @@
       "title": "Employee Experience — Create New Ways Of Working",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -844,7 +844,7 @@
       "title": "Experience insights",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -880,7 +880,7 @@
       "title": "State of AI Index: AI Attitudes in NZ",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -889,7 +889,7 @@
       "title": "Managed IT services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -898,7 +898,7 @@
       "title": "IT support services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -925,7 +925,7 @@
       "title": "Service operations",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 137
     },
     {
@@ -1006,7 +1006,7 @@
       "title": "/nz/en/solutions/managed-it-services/technology-lifecycle-services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -1024,7 +1024,7 @@
       "title": "Managed LAN Services — Stability & Performance",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 127
     },
     {
@@ -1033,7 +1033,7 @@
       "title": "Managed WAN Services — Fast, Secure Networking",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -1042,7 +1042,7 @@
       "title": "Security — Protect Your People, Assets, And Data",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 134
     },
     {
@@ -1051,7 +1051,7 @@
       "title": "Cybersecurity & Data Protection Solutions",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 141
     },
     {
@@ -1159,7 +1159,7 @@
       "title": "Protective Security Services For Business",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1168,7 +1168,7 @@
       "title": "Security insights",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -1204,7 +1204,7 @@
       "title": "Software management and licensing New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -1213,7 +1213,7 @@
       "title": "SAM consulting services New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1222,7 +1222,7 @@
       "title": "Licensing consultancy services New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 159
     },
     {
@@ -1231,7 +1231,7 @@
       "title": "Advanced Data Centre Solutions for Secure Colocation Services",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 157
     },
     {
@@ -1240,7 +1240,7 @@
       "title": "Data centre enterprise solutions",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 158
     },
     {
@@ -1249,7 +1249,7 @@
       "title": "Data centre solutions for IT aggregators",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 156
     },
     {
@@ -1258,7 +1258,7 @@
       "title": "SaaS and cloud provider data centre solutions",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 157
     },
     {
@@ -1267,7 +1267,7 @@
       "title": "High density & power data centre solutions",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 156
     },
     {
@@ -1276,7 +1276,7 @@
       "title": "Colocation Data Centre Facilities In New Zealand and Australia",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 138
     },
     {
@@ -1348,7 +1348,7 @@
       "title": "Enterprise-grade colocation data centers for global growth",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 158
     },
     {
@@ -1357,7 +1357,7 @@
       "title": "Payroll services New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 137
     },
     {
@@ -1375,7 +1375,7 @@
       "title": "Managed Payroll Services New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -1384,7 +1384,7 @@
       "title": "MyPay New Zealand — Mobile Payroll App",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -1393,7 +1393,7 @@
       "title": "Direct Access — Employee Self-Service Payroll Portal",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -1402,7 +1402,7 @@
       "title": "Payroll compliance software New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 131
     },
     {
@@ -1411,7 +1411,7 @@
       "title": "Integrated payroll systems New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 134
     },
     {
@@ -1420,7 +1420,7 @@
       "title": "Payroll implementation New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -1429,7 +1429,7 @@
       "title": "New Zealand Payroll security",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 131
     },
     {
@@ -1438,7 +1438,7 @@
       "title": "Datapay Payroll Assistant for New Zealand",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -1447,7 +1447,7 @@
       "title": "Local Government Enterprise Software Solutions - Datascape",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 137
     },
     {
@@ -1465,7 +1465,7 @@
       "title": "Antenno",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -1474,7 +1474,7 @@
       "title": "Bookings",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1483,7 +1483,7 @@
       "title": "Datascape CRM",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 132
     },
     {
@@ -1492,7 +1492,7 @@
       "title": "Fieldwork",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1501,7 +1501,7 @@
       "title": "Financials",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1510,7 +1510,7 @@
       "title": "MyDatascape",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1519,7 +1519,7 @@
       "title": "Property and rating",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1528,7 +1528,7 @@
       "title": "Regulatory and compliance",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 130
     },
     {
@@ -1546,7 +1546,7 @@
       "title": "Websites",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1555,7 +1555,7 @@
       "title": "Gateway services | seamless payments and messaging",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 124
     },
     {
@@ -1564,7 +1564,7 @@
       "title": "Datacom Message Manager  |  SMS message gateway",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 127
     },
     {
@@ -1573,7 +1573,7 @@
       "title": "Payment Gateway  | Secure Online Payment Gateway for Enterprise Businesses",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1582,7 +1582,7 @@
       "title": "Transport Management System - Timpani | Transport Management System",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 131
     },
     {
@@ -1591,7 +1591,7 @@
       "title": "Digital Supply Chain — Innovative Supply Chain Solutions | for business",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -1600,7 +1600,7 @@
       "title": "Agriculture — Enable Business Technology Growth",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -1609,7 +1609,7 @@
       "title": "Education Cloud Services - Learn and Teach",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 136
     },
     {
@@ -1618,7 +1618,7 @@
       "title": "Energy & Utilities — Sustainable & Renewable Tech",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 141
     },
     {
@@ -1627,7 +1627,7 @@
       "title": "Engineering & Construction — Blueprint For Success",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 137
     },
     {
@@ -1636,7 +1636,7 @@
       "title": "Financial Services — Value For Money",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 129
     },
     {
@@ -1645,7 +1645,7 @@
       "title": "FMCG & Retail — Digital Shopping Experiences",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -1654,7 +1654,7 @@
       "title": "Healthcare — Lifesaving Next-Generation Technologies",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 145
     },
     {
@@ -1663,7 +1663,7 @@
       "title": "Manufacturing — Gain Seamless Processes",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 135
     },
     {
@@ -1672,7 +1672,7 @@
       "title": "Central Government — Empowering Public Sector",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 148
     },
     {
@@ -1681,7 +1681,7 @@
       "title": "Local Government — Engage & Connect Communities",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 133
     },
     {
@@ -1690,7 +1690,7 @@
       "title": "Media, Entertainment & Telecoms — Newsworthy Tech",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 138
     },
     {
@@ -1699,7 +1699,7 @@
       "title": "Professional Services — Improve Customer Experience",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -1708,7 +1708,7 @@
       "title": "Tourism & Hospitality — Five-Star IT Solutions",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 139
     },
     {
@@ -1717,7 +1717,7 @@
       "title": "Transportation & Logistics — Secure IT Support",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 142
     },
     {
@@ -1817,7 +1817,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 4,
-      "outDegree": 125
+      "outDegree": 128
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/customer-story-delwp-api",
@@ -2033,7 +2033,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 4,
-      "outDegree": 125
+      "outDegree": 128
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/customer-story-wa-govnext",
@@ -2096,7 +2096,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 3,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/customer-story-ministry-for-the-environment",
@@ -2123,7 +2123,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 3,
-      "outDegree": 127
+      "outDegree": 130
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/blog-payroll-classifying-contractors",
@@ -2257,7 +2257,7 @@
       "title": "Discover — Customer Stories, Ebooks, Video & Resources",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 149
     },
     {
@@ -2267,7 +2267,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 126
+      "outDegree": 129
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/customer-story-pronto-software-data-centre-migration",
@@ -2609,7 +2609,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 126
+      "outDegree": 129
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/blog-why-you-should-embrace-the-complexities-of-multi-cloud",
@@ -2663,7 +2663,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/customer-story-ministry-for-primary-industries",
@@ -2780,7 +2780,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 129
+      "outDegree": 126
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/blog-a-better-way-forward-for-our-public-sector",
@@ -2861,7 +2861,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 4,
-      "outDegree": 129
+      "outDegree": 126
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/blog-the-right-public-sector-leadership-boosts-citizen-experience",
@@ -3167,7 +3167,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/right-size-your-physical-footprint-with-a-data-centre",
@@ -3185,7 +3185,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/public-and-the-new-private-cloud-outcomes-not-destinations",
@@ -3284,7 +3284,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 131
+      "outDegree": 128
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/digital-transformation-is-about-the-community-and-employees",
@@ -3302,7 +3302,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/a-clear-framework-is-critical-for-outsourcing-success",
@@ -3311,7 +3311,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/the-power-of-the-employee-experience",
@@ -3338,7 +3338,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 130
+      "outDegree": 127
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/your-competitive-advantage-customer-service-basics",
@@ -3356,7 +3356,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 132
+      "outDegree": 129
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/the-first-step-using-trajectory-to-transform-at-pace",
@@ -3374,7 +3374,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 134
+      "outDegree": 131
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/how-respect-delivers-quality-omnichannel-customer-service",
@@ -3401,7 +3401,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
@@ -3410,7 +3410,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/developing-tomorrows-tech-talent",
@@ -3428,7 +3428,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 130
+      "outDegree": 127
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/apache-act-now-and-prepare-for-future-attacks",
@@ -3464,7 +3464,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/effective-cloud-protection-strategies-for-streamlining-data-growth-and-security",
@@ -3482,7 +3482,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/voice-of-reason-using-frontline-insights-for-better-cx",
@@ -3491,7 +3491,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/seven-tech-trends-shaping-business-in-2022-and-beyond",
@@ -3500,7 +3500,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/connect-academy-boosting-confidence-and-opening-doors",
@@ -3545,7 +3545,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 10,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/the-future-of-work-requires-new-mindsets-now",
@@ -3554,7 +3554,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/does-your-digital-transformation-process-start-with-people",
@@ -3581,7 +3581,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 132
+      "outDegree": 129
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/simple-steps-to-resolve-non-compliance-with-holidays-act",
@@ -3698,7 +3698,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 5,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/crm-projects-how-to-avoid-the-common-pitfalls",
@@ -3716,7 +3716,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 129
+      "outDegree": 126
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/using-tech-to-enable-australians-to-shape-their-future",
@@ -3827,24 +3827,6 @@
       "outDegree": 129
     },
     {
-      "id": "https://datacom.com/nz/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "url": "https://datacom.com/nz/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "title": "/nz/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "depth": 0,
-      "status": 200,
-      "inDegree": 0,
-      "outDegree": 0
-    },
-    {
-      "id": "https://datacom.com/au/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "url": "https://datacom.com/au/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "title": "Making great teams: the power of collaboration",
-      "depth": 0,
-      "status": 200,
-      "inDegree": 0,
-      "outDegree": 2
-    },
-    {
       "id": "https://datacom.com/nz/en/discover/articles/we-were-promised-jetpacks-and-hoverboards-that-really-hover",
       "url": "https://datacom.com/nz/en/discover/articles/we-were-promised-jetpacks-and-hoverboards-that-really-hover",
       "title": "We were promised jetpacks and hoverboards – Discover",
@@ -3896,7 +3878,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/fast-but-flawed-the-pros-and-cons-of-chatgpt",
@@ -4192,7 +4174,7 @@
       "title": "Our Team – Group Leadership, Board & Directors",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 128
     },
     {
@@ -4481,7 +4463,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 3,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/technology-can-help-councils-grow-trust-research",
@@ -4616,7 +4598,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 5,
-      "outDegree": 129
+      "outDegree": 126
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/tony-carter-real-value-in-being-a-trusted-partner",
@@ -4624,7 +4606,7 @@
       "title": "Tony Carter: Real value in being a trusted partner",
       "depth": 0,
       "status": 200,
-      "inDegree": 2,
+      "inDegree": 1,
       "outDegree": 128
     },
     {
@@ -4633,7 +4615,7 @@
       "title": "Greg Davidson: Building a strong foundation for the future",
       "depth": 0,
       "status": 200,
-      "inDegree": 2,
+      "inDegree": 1,
       "outDegree": 131
     },
     {
@@ -4669,7 +4651,7 @@
       "title": "AI 'Funny Finder' helping people pick from 680+ comedy acts",
       "depth": 0,
       "status": 200,
-      "inDegree": 8,
+      "inDegree": 9,
       "outDegree": 129
     },
     {
@@ -4687,7 +4669,7 @@
       "title": "The revolutionary role AI is playing in app modernisation",
       "depth": 0,
       "status": 200,
-      "inDegree": 26,
+      "inDegree": 28,
       "outDegree": 129
     },
     {
@@ -4715,7 +4697,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 6,
-      "outDegree": 131
+      "outDegree": 128
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/blog-hackassist-scaling-innovation",
@@ -4777,7 +4759,7 @@
       "title": "Modernising apps, turbocharging new platforms with AI agents",
       "depth": 0,
       "status": 200,
-      "inDegree": 16,
+      "inDegree": 17,
       "outDegree": 128
     },
     {
@@ -4822,7 +4804,7 @@
       "title": "Indigenous youth connect with culture and career potential",
       "depth": 0,
       "status": 200,
-      "inDegree": 14,
+      "inDegree": 9,
       "outDegree": 128
     },
     {
@@ -4930,7 +4912,7 @@
       "title": "Datacom shines at Auscontact 2025 Excellence Awards",
       "depth": 0,
       "status": 200,
-      "inDegree": 10,
+      "inDegree": 5,
       "outDegree": 128
     },
     {
@@ -4939,7 +4921,7 @@
       "title": "Q&A: How generative AI is shaping end user experiences",
       "depth": 0,
       "status": 200,
-      "inDegree": 13,
+      "inDegree": 8,
       "outDegree": 129
     },
     {
@@ -4948,7 +4930,7 @@
       "title": "Datacom's AI Payroll Assistant ushers in new era for payroll",
       "depth": 0,
       "status": 200,
-      "inDegree": 8,
+      "inDegree": 6,
       "outDegree": 128
     },
     {
@@ -4975,7 +4957,7 @@
       "title": "Untying the knot to make getting a marriage licence simpler",
       "depth": 0,
       "status": 200,
-      "inDegree": 13,
+      "inDegree": 11,
       "outDegree": 126
     },
     {
@@ -5011,7 +4993,7 @@
       "title": "MPI developers have total power to create",
       "depth": 0,
       "status": 200,
-      "inDegree": 12,
+      "inDegree": 10,
       "outDegree": 125
     },
     {
@@ -5020,7 +5002,7 @@
       "title": "Emergency Caller Location Information system is a lifesaver",
       "depth": 0,
       "status": 200,
-      "inDegree": 3,
+      "inDegree": 4,
       "outDegree": 129
     },
     {
@@ -5029,7 +5011,7 @@
       "title": "Streamlining Australia’s largest river system’s website",
       "depth": 0,
       "status": 200,
-      "inDegree": 11,
+      "inDegree": 8,
       "outDegree": 126
     },
     {
@@ -5074,7 +5056,7 @@
       "title": "What the AI era means for your marketing and web presence",
       "depth": 0,
       "status": 200,
-      "inDegree": 6,
+      "inDegree": 5,
       "outDegree": 130
     },
     {
@@ -5119,7 +5101,7 @@
       "title": "Make strategic data protection your competitive edge",
       "depth": 0,
       "status": 200,
-      "inDegree": 25,
+      "inDegree": 22,
       "outDegree": 129
     },
     {
@@ -5155,7 +5137,7 @@
       "title": "Datacom & First Foundation: Pathways for young talent in NZ",
       "depth": 0,
       "status": 200,
-      "inDegree": 7,
+      "inDegree": 5,
       "outDegree": 129
     },
     {
@@ -5164,7 +5146,7 @@
       "title": "Datacom launches new ‘AI in the workplace’ course to equip future tech talent",
       "depth": 0,
       "status": 200,
-      "inDegree": 4,
+      "inDegree": 2,
       "outDegree": 128
     },
     {
@@ -5173,7 +5155,7 @@
       "title": "Lessons from 2025 — and what’s ahead in 2026",
       "depth": 0,
       "status": 200,
-      "inDegree": 18,
+      "inDegree": 17,
       "outDegree": 130
     },
     {
@@ -5182,7 +5164,7 @@
       "title": "Datacom at 60: a tech trailblazer eyes the AI future",
       "depth": 0,
       "status": 200,
-      "inDegree": 18,
+      "inDegree": 16,
       "outDegree": 128
     },
     {
@@ -5263,7 +5245,7 @@
       "title": "Business Outlook 2026: NZ businesses eye tech investments",
       "depth": 0,
       "status": 200,
-      "inDegree": 3,
+      "inDegree": 2,
       "outDegree": 128
     },
     {
@@ -5272,7 +5254,7 @@
       "title": "Championing inclusion at Special Olympics NZ Games",
       "depth": 0,
       "status": 200,
-      "inDegree": 11,
+      "inDegree": 7,
       "outDegree": 128
     },
     {
@@ -5281,7 +5263,7 @@
       "title": "Boroondara selects Datascape to modernise property and rates",
       "depth": 0,
       "status": 200,
-      "inDegree": 11,
+      "inDegree": 6,
       "outDegree": 128
     },
     {
@@ -5290,7 +5272,7 @@
       "title": "Q&A: How to get smarter with software licensing",
       "depth": 0,
       "status": 200,
-      "inDegree": 12,
+      "inDegree": 8,
       "outDegree": 131
     },
     {
@@ -5299,7 +5281,7 @@
       "title": "The future of payroll will be built together: Datapay",
       "depth": 0,
       "status": 200,
-      "inDegree": 11,
+      "inDegree": 8,
       "outDegree": 128
     },
     {
@@ -5308,7 +5290,7 @@
       "title": "Data centres: Building opportunities on solid foundations",
       "depth": 0,
       "status": 200,
-      "inDegree": 21,
+      "inDegree": 19,
       "outDegree": 128
     },
     {
@@ -5317,8 +5299,8 @@
       "title": "From chaos to clarity: making marketing work",
       "depth": 0,
       "status": 200,
-      "inDegree": 24,
-      "outDegree": 129
+      "inDegree": 19,
+      "outDegree": 126
     },
     {
       "id": "https://datacom.com/nz/en/discover/articles/digital-resilience-starts-with-the-right-infrastructure",
@@ -5326,7 +5308,7 @@
       "title": "Digital resilience starts with the right infrastructure",
       "depth": 0,
       "status": 200,
-      "inDegree": 6,
+      "inDegree": 4,
       "outDegree": 133
     },
     {
@@ -5344,7 +5326,7 @@
       "title": "What resilience looks like in cybersecurity",
       "depth": 0,
       "status": 200,
-      "inDegree": 12,
+      "inDegree": 8,
       "outDegree": 130
     },
     {
@@ -5353,7 +5335,7 @@
       "title": "Five questions you should ask your security provider",
       "depth": 0,
       "status": 200,
-      "inDegree": 21,
+      "inDegree": 17,
       "outDegree": 129
     },
     {
@@ -5362,7 +5344,7 @@
       "title": "Q&A: Turning ServiceNow into an engine for business value",
       "depth": 0,
       "status": 200,
-      "inDegree": 26,
+      "inDegree": 20,
       "outDegree": 130
     },
     {
@@ -5371,7 +5353,7 @@
       "title": "Meet the Australian WIICTA finalists for 2026",
       "depth": 0,
       "status": 200,
-      "inDegree": 8,
+      "inDegree": 6,
       "outDegree": 128
     },
     {
@@ -5380,7 +5362,7 @@
       "title": "Q&A: Getting more from Workday with Datacom",
       "depth": 0,
       "status": 200,
-      "inDegree": 35,
+      "inDegree": 27,
       "outDegree": 130
     },
     {
@@ -5389,7 +5371,7 @@
       "title": "Q&A: From busywork to better work - smarter ways to use AI",
       "depth": 0,
       "status": 200,
-      "inDegree": 43,
+      "inDegree": 36,
       "outDegree": 130
     },
     {
@@ -5408,7 +5390,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/renewed-system-for-marriage-celebrants-stands-test-of-time",
@@ -5444,7 +5426,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 130
+      "outDegree": 127
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/amplifying-the-voice-of-young-people-in-care",
@@ -5462,7 +5444,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 130
+      "outDegree": 127
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/ddls-project-transforms-experience-for-it-training-customers",
@@ -5471,7 +5453,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 129
+      "outDegree": 126
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/fliways-smart-idea-inspires-secure-vaccine-record-solution",
@@ -5480,7 +5462,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 1,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/rapid-response-helps-foodstuffs-support-stores-feed-communities",
@@ -5489,7 +5471,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/farmlands-shift-to-hybrid-bricks-and-clicks-model-pays-off",
@@ -5498,7 +5480,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/tech-partnership-powering-eroads-global-expansion",
@@ -5516,7 +5498,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 3,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/synlait-steps-up-its-cybersecurity",
@@ -5525,7 +5507,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 4,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/platform-transforms-iwi-engagement-at-nelson-city-council",
@@ -5534,7 +5516,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 4,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/antenno-connects-western-bay-of-plenty-community",
@@ -5588,7 +5570,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/mainpower-keeping-the-lines-clear",
@@ -5606,7 +5588,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/creating-safer-spaces-for-children-online-with-thinkuknow",
@@ -5624,7 +5606,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 18,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/supporting-a-more-sustainable-aotearoa-with-manawa-energy",
@@ -5687,7 +5669,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 7,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/making-life-easier-for-kennards-customers-boosts-bookings",
@@ -5705,7 +5687,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 7,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/new-parking-system-rewards-good-auckland-drivers",
@@ -5714,7 +5696,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 4,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/customer-story/small-changes-add-up-to-great-customer-experiences-at-humm",
@@ -6082,7 +6064,7 @@
       "title": "Transforming inspections & fire prevention at Wattle Range",
       "depth": 0,
       "status": 200,
-      "inDegree": 12,
+      "inDegree": 11,
       "outDegree": 129
     },
     {
@@ -6181,7 +6163,7 @@
       "title": "Datapay keeps T&G Global’s payroll running smoothly",
       "depth": 0,
       "status": 200,
-      "inDegree": 6,
+      "inDegree": 5,
       "outDegree": 128
     },
     {
@@ -6226,7 +6208,7 @@
       "title": "Moorabool transforms council operations with Datacom",
       "depth": 0,
       "status": 200,
-      "inDegree": 2,
+      "inDegree": 1,
       "outDegree": 128
     },
     {
@@ -6235,7 +6217,7 @@
       "title": "Digital resilience boost for critical Reserve Bank systems",
       "depth": 0,
       "status": 200,
-      "inDegree": 9,
+      "inDegree": 8,
       "outDegree": 131
     },
     {
@@ -6298,7 +6280,7 @@
       "title": "Datapay payroll giving Alden aged care team peace of mind",
       "depth": 0,
       "status": 200,
-      "inDegree": 10,
+      "inDegree": 6,
       "outDegree": 128
     },
     {
@@ -6307,7 +6289,7 @@
       "title": "Farmers Trading Company and Datacom: 47 years of payroll",
       "depth": 0,
       "status": 200,
-      "inDegree": 3,
+      "inDegree": 2,
       "outDegree": 125
     },
     {
@@ -6325,7 +6307,7 @@
       "title": "Funny Finder: new functionality for festival‑goers",
       "depth": 0,
       "status": 200,
-      "inDegree": 6,
+      "inDegree": 3,
       "outDegree": 128
     },
     {
@@ -6334,7 +6316,7 @@
       "title": "WineWorks turns platform retirement to a cloud opportunity",
       "depth": 0,
       "status": 200,
-      "inDegree": 17,
+      "inDegree": 10,
       "outDegree": 131
     },
     {
@@ -6353,7 +6335,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 2,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/ebook/driving-digital-transformation-for-councils-ebook",
@@ -6415,7 +6397,7 @@
       "title": "Ebook: Network services - the right fit with Cisco and Datacom",
       "depth": 0,
       "status": 200,
-      "inDegree": 2,
+      "inDegree": 1,
       "outDegree": 129
     },
     {
@@ -6586,8 +6568,8 @@
       "title": "Datacom is Rainbow Tick certified",
       "depth": 0,
       "status": 200,
-      "inDegree": 775,
-      "outDegree": 128
+      "inDegree": 777,
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/news/datacom-and-google-team-up-to-help-children-learn-about-tech",
@@ -6614,7 +6596,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/news/red-hat-cloud-partner-of-the-year",
@@ -6856,7 +6838,7 @@
       "title": "Datacom joins ServiceNow Partner Programmes",
       "depth": 0,
       "status": 200,
-      "inDegree": 4,
+      "inDegree": 3,
       "outDegree": 128
     },
     {
@@ -6865,7 +6847,7 @@
       "title": "CrowdStrike Response to Windows IssueCrowdStrike Response to Windows Issue",
       "depth": 0,
       "status": 200,
-      "inDegree": 1,
+      "inDegree": 0,
       "outDegree": 128
     },
     {
@@ -7135,7 +7117,7 @@
       "title": "Dual wins for Datacom at Riverbed Partner of the Year Awards",
       "depth": 0,
       "status": 200,
-      "inDegree": 4,
+      "inDegree": 3,
       "outDegree": 128
     },
     {
@@ -7145,7 +7127,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 0,
-      "outDegree": 128
+      "outDegree": 125
     },
     {
       "id": "https://datacom.com/nz/en/discover/press-release/big-jump-in-ai-usage-in-kiwi-companies-but-guardrails-still-not-in-place",
@@ -7154,7 +7136,7 @@
       "depth": 0,
       "status": 200,
       "inDegree": 7,
-      "outDegree": 130
+      "outDegree": 127
     },
     {
       "id": "https://datacom.com/nz/en/discover/press-release/datacom-becomes-strategic-refresh-initiative-partner-for-windows-11",
@@ -7207,8 +7189,26 @@
       "title": "Cybersecurity Index reveals dangerous employee disconnect",
       "depth": 0,
       "status": 200,
-      "inDegree": 16,
+      "inDegree": 17,
       "outDegree": 131
+    },
+    {
+      "id": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "url": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "title": "AWS and Datacom accelerating cloud migration, modernisation",
+      "depth": 0,
+      "status": 200,
+      "inDegree": 5,
+      "outDegree": 130
+    },
+    {
+      "id": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "url": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "title": "Datacom FY25 results: Strong revenue remains, focus on AI",
+      "depth": 0,
+      "status": 200,
+      "inDegree": 3,
+      "outDegree": 129
     },
     {
       "id": "https://datacom.com/nz/en/solutions/application-services/digital-experience",
@@ -7216,7 +7216,7 @@
       "title": "/nz/en/solutions/application-services/digital-experience",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7225,7 +7225,7 @@
       "title": "/nz/en/solutions/contact-centres/service-desk",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7234,7 +7234,7 @@
       "title": "/nz/en/solutions/contact-centres/experience",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7243,7 +7243,7 @@
       "title": "/nz/en/about-us/who-we-are",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7252,7 +7252,7 @@
       "title": "/nz/en/about-us/sustainability",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7261,7 +7261,7 @@
       "title": "/nz/en/about-us/our-communities",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7270,7 +7270,7 @@
       "title": "/nz/en/about-us/partners",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7279,7 +7279,7 @@
       "title": "/nz/en/about-us/awards",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7288,7 +7288,7 @@
       "title": "/nz/en/about-us/year-in-review",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7297,7 +7297,7 @@
       "title": "/nz/en/contact-us",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7306,7 +7306,7 @@
       "title": "/nz/en/careers",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7315,7 +7315,7 @@
       "title": "/nz/en/careers/experienced-professionals",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7324,7 +7324,7 @@
       "title": "/nz/en/careers/graduates",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7333,7 +7333,7 @@
       "title": "/nz/en/careers/contact-centre-representatives",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7342,7 +7342,7 @@
       "title": "/nz/en/careers/why-datacom",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7351,7 +7351,7 @@
       "title": "/nz/en/careers/search",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7360,7 +7360,7 @@
       "title": "/nz/en/sign-in",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7378,7 +7378,7 @@
       "title": "/nz/en/search",
       "depth": -1,
       "status": 0,
-      "inDegree": 681,
+      "inDegree": 683,
       "outDegree": 0
     },
     {
@@ -7396,7 +7396,7 @@
       "title": "/nz/en/discover/press-release/datacom-research-new-zealand-cyber-recovery-plans-lag",
       "depth": -1,
       "status": 0,
-      "inDegree": 7,
+      "inDegree": 4,
       "outDegree": 0
     },
     {
@@ -7513,7 +7513,7 @@
       "title": "/nz/en/about-us/partners/aws",
       "depth": -1,
       "status": 0,
-      "inDegree": 21,
+      "inDegree": 22,
       "outDegree": 0
     },
     {
@@ -7684,7 +7684,7 @@
       "title": "/nz/en/about-us/our-locations",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7693,7 +7693,7 @@
       "title": "/nz/en/legal/privacy-policy",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7702,7 +7702,7 @@
       "title": "/nz/en/legal/gdpr-statement",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7711,7 +7711,7 @@
       "title": "/nz/en/legal/terms-of-use",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7720,7 +7720,7 @@
       "title": "/nz/en/legal",
       "depth": -1,
       "status": 0,
-      "inDegree": 775,
+      "inDegree": 777,
       "outDegree": 0
     },
     {
@@ -7846,7 +7846,7 @@
       "title": "/nz/en/discover/spotlight/why-every-business-needs-an-ai-strategy",
       "depth": -1,
       "status": 0,
-      "inDegree": 15,
+      "inDegree": 16,
       "outDegree": 0
     },
     {
@@ -7855,7 +7855,7 @@
       "title": "/nz/en/discover/press-release/datacom-acquires-t4-s-auckland-data-centre",
       "depth": -1,
       "status": 0,
-      "inDegree": 20,
+      "inDegree": 17,
       "outDegree": 0
     },
     {
@@ -7873,7 +7873,7 @@
       "title": "/nz/en/discover/press-release/funny-finder-expands-with-new-features-for-festival-goers",
       "depth": -1,
       "status": 0,
-      "inDegree": 4,
+      "inDegree": 1,
       "outDegree": 0
     },
     {
@@ -7901,15 +7901,6 @@
       "depth": -1,
       "status": 0,
       "inDegree": 19,
-      "outDegree": 0
-    },
-    {
-      "id": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
-      "url": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
-      "title": "/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
-      "depth": -1,
-      "status": 0,
-      "inDegree": 3,
       "outDegree": 0
     },
     {
@@ -7991,15 +7982,6 @@
       "depth": -1,
       "status": 0,
       "inDegree": 6,
-      "outDegree": 0
-    },
-    {
-      "id": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
-      "url": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
-      "title": "/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
-      "depth": -1,
-      "status": 0,
-      "inDegree": 5,
       "outDegree": 0
     },
     {
@@ -8098,7 +8080,7 @@
       "title": "/nz/en/discover/customer-story/new-aa-app-simplifies-on-road-support-estimates-trip-costs",
       "depth": -1,
       "status": 0,
-      "inDegree": 12,
+      "inDegree": 7,
       "outDegree": 0
     },
     {
@@ -8408,33 +8390,6 @@
       "outDegree": 0
     },
     {
-      "id": "https://datacom.com/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption",
-      "url": "https://datacom.com/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption",
-      "title": "/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption",
-      "depth": -1,
-      "status": 0,
-      "inDegree": 2,
-      "outDegree": 0
-    },
-    {
-      "id": "https://datacom.com/nz/en/discover/spotlight/simone-gall-navigating-change",
-      "url": "https://datacom.com/nz/en/discover/spotlight/simone-gall-navigating-change",
-      "title": "/nz/en/discover/spotlight/simone-gall-navigating-change",
-      "depth": -1,
-      "status": 0,
-      "inDegree": 2,
-      "outDegree": 0
-    },
-    {
-      "id": "https://datacom.com/nz/en/discover/spotlight/petro-nel-a-change-in-direction",
-      "url": "https://datacom.com/nz/en/discover/spotlight/petro-nel-a-change-in-direction",
-      "title": "/nz/en/discover/spotlight/petro-nel-a-change-in-direction",
-      "depth": -1,
-      "status": 0,
-      "inDegree": 2,
-      "outDegree": 0
-    },
-    {
       "id": "https://datacom.com/nz/en/about-us/partners/google/google-chrome-enterprise",
       "url": "https://datacom.com/nz/en/about-us/partners/google/google-chrome-enterprise",
       "title": "/nz/en/about-us/partners/google/google-chrome-enterprise",
@@ -8597,9 +8552,36 @@
       "outDegree": 0
     },
     {
+      "id": "https://datacom.com/nz/en/discover/spotlight/simone-gall-navigating-change",
+      "url": "https://datacom.com/nz/en/discover/spotlight/simone-gall-navigating-change",
+      "title": "/nz/en/discover/spotlight/simone-gall-navigating-change",
+      "depth": -1,
+      "status": 0,
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    {
       "id": "https://datacom.com/nz/en/discover/technical-blog/why-your-business-shouldnt-wait-to-switch-to-windows-11",
       "url": "https://datacom.com/nz/en/discover/technical-blog/why-your-business-shouldnt-wait-to-switch-to-windows-11",
       "title": "/nz/en/discover/technical-blog/why-your-business-shouldnt-wait-to-switch-to-windows-11",
+      "depth": -1,
+      "status": 0,
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    {
+      "id": "https://datacom.com/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption",
+      "url": "https://datacom.com/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption",
+      "title": "/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption",
+      "depth": -1,
+      "status": 0,
+      "inDegree": 1,
+      "outDegree": 0
+    },
+    {
+      "id": "https://datacom.com/nz/en/discover/spotlight/petro-nel-a-change-in-direction",
+      "url": "https://datacom.com/nz/en/discover/spotlight/petro-nel-a-change-in-direction",
+      "title": "/nz/en/discover/spotlight/petro-nel-a-change-in-direction",
       "depth": -1,
       "status": 0,
       "inDegree": 1,
@@ -8683,7 +8665,7 @@
       "title": "/nz/en/discover/spotlight/using-tech-to-solve-problems-in-uncertain-times",
       "depth": -1,
       "status": 0,
-      "inDegree": 3,
+      "inDegree": 2,
       "outDegree": 0
     },
     {
@@ -19620,10 +19602,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-squads",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-squads",
       "target": "https://datacom.com/nz/en/discover/spotlight/solving-problems-from-the-ground-up"
     },
     {
@@ -19677,6 +19655,10 @@
     {
       "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-squads",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-squads",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-squads",
@@ -21232,10 +21214,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-ways-of-working",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-ways-of-working",
       "target": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-ways-of-working/business-agility-training"
     },
     {
@@ -21265,6 +21243,10 @@
     {
       "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-ways-of-working",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-ways-of-working",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/solutions/application-services/software-engineering/agile-ways-of-working",
@@ -47632,10 +47614,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing",
       "target": "https://datacom.com/nz/en/about-us/partners/cognigy"
     },
     {
@@ -47677,6 +47655,10 @@
     {
       "source": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing",
@@ -102636,10 +102618,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/industries/tourism-and-hospitality",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/industries/tourism-and-hospitality",
       "target": "https://datacom.com/nz/en/solutions/application-services/data-intelligence-and-process-optimisation/data-visualisation"
     },
     {
@@ -102705,6 +102683,10 @@
     {
       "source": "https://datacom.com/nz/en/industries/tourism-and-hospitality",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/industries/tourism-and-hospitality",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/industries/tourism-and-hospitality",
@@ -103192,10 +103174,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/industries/transportation-and-logistics",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/industries/transportation-and-logistics",
       "target": "https://datacom.com/nz/en/discover/digital-resilience"
     },
     {
@@ -103273,6 +103251,10 @@
     {
       "source": "https://datacom.com/nz/en/industries/transportation-and-logistics",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/industries/transportation-and-logistics",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/industries/transportation-and-logistics",
@@ -108913,6 +108895,18 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-data-centres-managing-a-crisis",
       "target": "https://datacom.com/nz/en/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-data-centres-managing-a-crisis",
+      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-data-centres-managing-a-crisis",
+      "target": "https://datacom.com/nz/en/discover/articles/data-centres-building-opportunities-on-solid-foundations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-data-centres-managing-a-crisis",
+      "target": "https://datacom.com/nz/en/discover/articles/datacom-at-60-a-tech-trailblazer-eyes-the-ai-future"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-data-centres-managing-a-crisis",
@@ -116448,10 +116442,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-payroll-reducing-staff",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-payroll-reducing-staff",
       "target": "https://datacom.com/nz/en/search"
     },
     {
@@ -116461,6 +116451,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-payroll-reducing-staff",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-payroll-reducing-staff",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-payroll-reducing-staff",
@@ -118472,6 +118466,10 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-a-to-z-cybersecurity",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-a-to-z-cybersecurity",
       "target": "https://datacom.com/nz/en/search"
     },
     {
@@ -118481,10 +118479,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-a-to-z-cybersecurity",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-a-to-z-cybersecurity",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-a-to-z-cybersecurity",
@@ -120989,6 +120983,18 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-7-tips-working-from-home",
       "target": "https://datacom.com/nz/en/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-7-tips-working-from-home",
+      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-7-tips-working-from-home",
+      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-7-tips-working-from-home",
+      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-7-tips-working-from-home",
@@ -124528,18 +124534,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/whitepaper-aws-cloud-migration",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-dia-aws"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/whitepaper-aws-cloud-migration",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mpi-devcloud"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/whitepaper-aws-cloud-migration",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-murray-darling-basin-authority"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/whitepaper-aws-cloud-migration",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -126061,6 +126055,18 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/customer-story-victorian-land-registry-services-aws",
       "target": "https://datacom.com/nz/en/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/customer-story-victorian-land-registry-services-aws",
+      "target": "https://datacom.com/nz/en/discover/articles/customer-story-dia-aws"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/customer-story-victorian-land-registry-services-aws",
+      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mpi-devcloud"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/customer-story-victorian-land-registry-services-aws",
+      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mbie-ecli"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/customer-story-victorian-land-registry-services-aws",
@@ -133213,6 +133219,18 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-more-crucial-than-ever-customer-centric-digital-experiences",
       "target": "https://datacom.com/nz/en/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-more-crucial-than-ever-customer-centric-digital-experiences",
+      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-more-crucial-than-ever-customer-centric-digital-experiences",
+      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-more-crucial-than-ever-customer-centric-digital-experiences",
+      "target": "https://datacom.com/nz/en/discover/articles/five-questions-you-should-ask-your-security-provider"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-more-crucial-than-ever-customer-centric-digital-experiences",
@@ -144812,10 +144830,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/spotlight-libby-ewing-jarvie",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/spotlight-libby-ewing-jarvie",
       "target": "https://datacom.com/nz/en/solutions/customer-experience/ai-chatbots"
     },
     {
@@ -144837,6 +144851,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/spotlight-libby-ewing-jarvie",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/spotlight-libby-ewing-jarvie",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/spotlight-libby-ewing-jarvie",
@@ -152464,6 +152482,18 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-six-surprising-reasons-your-business-needs-office-365-backup",
+      "target": "https://datacom.com/nz/en/discover/articles/customer-story-dia-aws"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-six-surprising-reasons-your-business-needs-office-365-backup",
+      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mpi-devcloud"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-six-surprising-reasons-your-business-needs-office-365-backup",
+      "target": "https://datacom.com/nz/en/discover/articles/customer-story-murray-darling-basin-authority"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/blog-six-surprising-reasons-your-business-needs-office-365-backup",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -155541,18 +155571,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-how-data-centres-are-enabling-remote-working",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-how-data-centres-are-enabling-remote-working",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-how-data-centres-are-enabling-remote-working",
-      "target": "https://datacom.com/nz/en/discover/articles/data-centres-building-opportunities-on-solid-foundations"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-how-data-centres-are-enabling-remote-working",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-at-60-a-tech-trailblazer-eyes-the-ai-future"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-how-data-centres-are-enabling-remote-working",
@@ -162260,18 +162278,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-adopting-ai-to-unlock-software-development-2-0",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-adopting-ai-to-unlock-software-development-2-0",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-adopting-ai-to-unlock-software-development-2-0",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-adopting-ai-to-unlock-software-development-2-0",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -166893,18 +166899,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/customer-story-shire-of-halls-creek",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/customer-story-shire-of-halls-creek",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/customer-story-shire-of-halls-creek",
-      "target": "https://datacom.com/nz/en/discover/articles/digital-resilience-starts-with-the-right-infrastructure"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/customer-story-shire-of-halls-creek",
-      "target": "https://datacom.com/nz/en/discover/articles/datapay-the-future-of-payroll-will-be-built-together"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/customer-story-shire-of-halls-creek",
@@ -182924,10 +182918,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/spotlight-poppy-salerno",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/spotlight-poppy-salerno",
       "target": "https://datacom.com/nz/en/search"
     },
     {
@@ -182949,6 +182939,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/spotlight-poppy-salerno",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/spotlight-poppy-salerno",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/spotlight-poppy-salerno",
@@ -184468,18 +184462,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/the-real-answer-to-disaster-recovery-is-disaster-prevention",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/the-real-answer-to-disaster-recovery-is-disaster-prevention",
-      "target": "https://datacom.com/nz/en/discover/articles/data-centres-building-opportunities-on-solid-foundations"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/the-real-answer-to-disaster-recovery-is-disaster-prevention",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-at-60-a-tech-trailblazer-eyes-the-ai-future"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/the-real-answer-to-disaster-recovery-is-disaster-prevention",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -185493,18 +185475,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/data-led-customer-experiences-are-proven-winners",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/data-led-customer-experiences-are-proven-winners",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/data-led-customer-experiences-are-proven-winners",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/data-led-customer-experiences-are-proven-winners",
-      "target": "https://datacom.com/nz/en/discover/articles/meet-the-australian-wiicta-finalists-for-2026"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/data-led-customer-experiences-are-proven-winners",
@@ -188576,10 +188546,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/your-mileage-may-vary-with-employee-experience",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/your-mileage-may-vary-with-employee-experience",
       "target": "https://datacom.com/nz/en/about-us/partners/dell-technologies"
     },
     {
@@ -188597,6 +188563,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/your-mileage-may-vary-with-employee-experience",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/your-mileage-may-vary-with-employee-experience",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/your-mileage-may-vary-with-employee-experience",
@@ -191176,18 +191146,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/partnership-helping-customers-turn-big-ideas-into-reality",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-dia-aws"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/partnership-helping-customers-turn-big-ideas-into-reality",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mpi-devcloud"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/partnership-helping-customers-turn-big-ideas-into-reality",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-murray-darling-basin-authority"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/partnership-helping-customers-turn-big-ideas-into-reality",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -192200,18 +192158,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/should-we-invest-in-a-few-to-lead-the-many-",
-      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/should-we-invest-in-a-few-to-lead-the-many-",
-      "target": "https://datacom.com/nz/en/discover/articles/how-to-get-smarter-with-software-licensing"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/should-we-invest-in-a-few-to-lead-the-many-",
-      "target": "https://datacom.com/nz/en/discover/articles/championing-inclusion-at-special-olympics-nz-games"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/should-we-invest-in-a-few-to-lead-the-many-",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -192709,18 +192655,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/a-clear-framework-is-critical-for-outsourcing-success",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/a-clear-framework-is-critical-for-outsourcing-success",
-      "target": "https://datacom.com/nz/en/discover/articles/how-generative-ai-is-shaping-end-user-experiences"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/a-clear-framework-is-critical-for-outsourcing-success",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-shines-at-auscontact-2025-excellence-awards"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/a-clear-framework-is-critical-for-outsourcing-success",
-      "target": "https://datacom.com/nz/en/discover/articles/indigenous-youth-connect-with-culture-and-career-potential"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/a-clear-framework-is-critical-for-outsourcing-success",
@@ -194264,18 +194198,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/finding-customer-experience-metrics-that-matter",
-      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/finding-customer-experience-metrics-that-matter",
-      "target": "https://datacom.com/nz/en/discover/articles/how-to-get-smarter-with-software-licensing"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/finding-customer-experience-metrics-that-matter",
-      "target": "https://datacom.com/nz/en/discover/articles/championing-inclusion-at-special-olympics-nz-games"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/finding-customer-experience-metrics-that-matter",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -195301,18 +195223,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/cloud-native-does-it-mean-public-cloud",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/cloud-native-does-it-mean-public-cloud",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-dia-aws"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/cloud-native-does-it-mean-public-cloud",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mpi-devcloud"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/cloud-native-does-it-mean-public-cloud",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-murray-darling-basin-authority"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/cloud-native-does-it-mean-public-cloud",
@@ -196349,18 +196259,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/what-does-the-future-of-cloud-look-like",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/what-does-the-future-of-cloud-look-like",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-dia-aws"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/what-does-the-future-of-cloud-look-like",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-mpi-devcloud"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/what-does-the-future-of-cloud-look-like",
-      "target": "https://datacom.com/nz/en/discover/articles/customer-story-murray-darling-basin-authority"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/what-does-the-future-of-cloud-look-like",
@@ -197892,18 +197790,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/putting-the-customers-voice-at-the-centre",
-      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/putting-the-customers-voice-at-the-centre",
-      "target": "https://datacom.com/nz/en/discover/articles/how-to-get-smarter-with-software-licensing"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/putting-the-customers-voice-at-the-centre",
-      "target": "https://datacom.com/nz/en/discover/articles/championing-inclusion-at-special-olympics-nz-games"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/putting-the-customers-voice-at-the-centre",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -198400,23 +198286,7 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
-      "target": "https://datacom.com/nz/en/discover/articles/how-generative-ai-is-shaping-end-user-experiences"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-shines-at-auscontact-2025-excellence-awards"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
-      "target": "https://datacom.com/nz/en/discover/articles/indigenous-youth-connect-with-culture-and-career-potential"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
@@ -198425,6 +198295,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/how-to-stop-failing-at-failure-demand",
@@ -199440,18 +199314,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/navigating-the-growing-threat-of-cyber-attacks",
-      "target": "https://datacom.com/nz/en/discover/articles/five-questions-you-should-ask-your-security-provider"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/navigating-the-growing-threat-of-cyber-attacks",
-      "target": "https://datacom.com/nz/en/discover/articles/what-resilience-looks-like-in-cybersecurity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/navigating-the-growing-threat-of-cyber-attacks",
-      "target": "https://datacom.com/nz/en/discover/articles/boroondara-selects-datascape-to-modernise-property-and-rates"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/navigating-the-growing-threat-of-cyber-attacks",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -199948,10 +199810,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/apache-act-now-and-prepare-for-future-attacks",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/apache-act-now-and-prepare-for-future-attacks",
       "target": "https://datacom.com/nz/en/search"
     },
     {
@@ -199973,6 +199831,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/apache-act-now-and-prepare-for-future-attacks",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/articles/apache-act-now-and-prepare-for-future-attacks",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/apache-act-now-and-prepare-for-future-attacks",
@@ -201488,18 +201350,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/why-its-time-to-review-your-customer-authentication-process",
-      "target": "https://datacom.com/nz/en/discover/articles/how-generative-ai-is-shaping-end-user-experiences"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/why-its-time-to-review-your-customer-authentication-process",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-shines-at-auscontact-2025-excellence-awards"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/why-its-time-to-review-your-customer-authentication-process",
-      "target": "https://datacom.com/nz/en/discover/articles/indigenous-youth-connect-with-culture-and-career-potential"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/why-its-time-to-review-your-customer-authentication-process",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -202500,18 +202350,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/how-to-create-compelling-conversational-ai-whitepaper",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-create-compelling-conversational-ai-whitepaper",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-create-compelling-conversational-ai-whitepaper",
-      "target": "https://datacom.com/nz/en/discover/articles/meet-the-australian-wiicta-finalists-for-2026"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/how-to-create-compelling-conversational-ai-whitepaper",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -203012,18 +202850,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/voice-of-reason-using-frontline-insights-for-better-cx",
-      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/voice-of-reason-using-frontline-insights-for-better-cx",
-      "target": "https://datacom.com/nz/en/discover/articles/how-to-get-smarter-with-software-licensing"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/voice-of-reason-using-frontline-insights-for-better-cx",
-      "target": "https://datacom.com/nz/en/discover/articles/championing-inclusion-at-special-olympics-nz-games"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/voice-of-reason-using-frontline-insights-for-better-cx",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -203521,18 +203347,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/seven-tech-trends-shaping-business-in-2022-and-beyond",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/seven-tech-trends-shaping-business-in-2022-and-beyond",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/seven-tech-trends-shaping-business-in-2022-and-beyond",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/seven-tech-trends-shaping-business-in-2022-and-beyond",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/seven-tech-trends-shaping-business-in-2022-and-beyond",
@@ -206084,18 +205898,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/is-your-payroll-under-threat",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/is-your-payroll-under-threat",
-      "target": "https://datacom.com/nz/en/discover/articles/datapay-the-future-of-payroll-will-be-built-together"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/is-your-payroll-under-threat",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-ai-payroll-assistant-ushers-in-new-era-for-payroll"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/is-your-payroll-under-threat",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -206593,18 +206395,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/the-future-of-work-requires-new-mindsets-now",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/the-future-of-work-requires-new-mindsets-now",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/the-future-of-work-requires-new-mindsets-now",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/the-future-of-work-requires-new-mindsets-now",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/the-future-of-work-requires-new-mindsets-now",
@@ -208149,18 +207939,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/datacoms-nelson-team-marks-11-years-opens-new-office",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/datacoms-nelson-team-marks-11-years-opens-new-office",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/datacoms-nelson-team-marks-11-years-opens-new-office",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/datacoms-nelson-team-marks-11-years-opens-new-office",
-      "target": "https://datacom.com/nz/en/discover/articles/five-questions-you-should-ask-your-security-provider"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/datacoms-nelson-team-marks-11-years-opens-new-office",
@@ -214816,18 +214594,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/former-lantech-ceo-hayden-mckee-joins-datacom",
-      "target": "https://datacom.com/nz/en/discover/spotlight/spotlight-on-joseph-thornley-driving-datacoms-ai-adoption"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/former-lantech-ceo-hayden-mckee-joins-datacom",
-      "target": "https://datacom.com/nz/en/discover/spotlight/simone-gall-navigating-change"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/former-lantech-ceo-hayden-mckee-joins-datacom",
-      "target": "https://datacom.com/nz/en/discover/spotlight/petro-nel-a-change-in-direction"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/former-lantech-ceo-hayden-mckee-joins-datacom",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -215845,18 +215611,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/cybersecurity-alerts",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/cybersecurity-alerts",
-      "target": "https://datacom.com/nz/en/discover/articles/five-questions-you-should-ask-your-security-provider"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/cybersecurity-alerts",
-      "target": "https://datacom.com/nz/en/discover/articles/what-resilience-looks-like-in-cybersecurity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/cybersecurity-alerts",
-      "target": "https://datacom.com/nz/en/discover/articles/boroondara-selects-datascape-to-modernise-property-and-rates"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/cybersecurity-alerts",
@@ -220983,14 +220737,6 @@
       "target": "https://datacom.com/nz/en/legal"
     },
     {
-      "source": "https://datacom.com/au/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "target": "https://datacom.com/nz/en/solutions/application-services/software-engineering/application-modernisation"
-    },
-    {
-      "source": "https://datacom.com/au/en/discover/articles/blog-making-great-teams-the-power-of-collaboration",
-      "target": "https://datacom.com/nz/en"
-    },
-    {
       "source": "https://datacom.com/nz/en/discover/articles/we-were-promised-jetpacks-and-hoverboards-that-really-hover",
       "target": "https://datacom.com/nz/en"
     },
@@ -224061,18 +223807,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/creating-pathways-for-healing-and-opportunity-with-education",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/creating-pathways-for-healing-and-opportunity-with-education",
-      "target": "https://datacom.com/nz/en/discover/articles/ai-in-the-workplace-new-course-to-equip-future-tech-talent"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/creating-pathways-for-healing-and-opportunity-with-education",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-first-foundation-pathways-for-young-talent-in-nz"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/creating-pathways-for-healing-and-opportunity-with-education",
-      "target": "https://datacom.com/nz/en/discover/articles/make-strategic-data-protection-your-competitive-edge"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/creating-pathways-for-healing-and-opportunity-with-education",
@@ -256972,18 +256706,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/customer-story-bg-unified-solutions-datacom-airtrunk",
-      "target": "https://datacom.com/nz/en/discover/articles/from-busywork-to-better-work-smarter-ways-to-use-ai"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/customer-story-bg-unified-solutions-datacom-airtrunk",
-      "target": "https://datacom.com/nz/en/discover/articles/data-centres-building-opportunities-on-solid-foundations"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/customer-story-bg-unified-solutions-datacom-airtrunk",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-at-60-a-tech-trailblazer-eyes-the-ai-future"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/customer-story-bg-unified-solutions-datacom-airtrunk",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -264692,18 +264414,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/tech-insights-to-help-prepare-for-2025-datacom-research",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-research-new-zealand-cyber-recovery-plans-lag"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/tech-insights-to-help-prepare-for-2025-datacom-research",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-acquires-t4-s-auckland-data-centre"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/tech-insights-to-help-prepare-for-2025-datacom-research",
-      "target": "https://datacom.com/nz/en/discover/press-release/funny-finder-expands-with-new-features-for-festival-goers"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/tech-insights-to-help-prepare-for-2025-datacom-research",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -270389,18 +270099,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-using-conversational-ai-to-better-serve-communities",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-using-conversational-ai-to-better-serve-communities",
-      "target": "https://datacom.com/nz/en/discover/articles/boroondara-selects-datascape-to-modernise-property-and-rates"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-using-conversational-ai-to-better-serve-communities",
-      "target": "https://datacom.com/nz/en/discover/articles/business-outlook-2026-nz-businesses-eye-tech-investments"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/blog-using-conversational-ai-to-better-serve-communities",
-      "target": "https://datacom.com/nz/en/discover/articles/lessons-from-2025-and-what-is-ahead-in-2026"
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/blog-using-conversational-ai-to-better-serve-communities",
@@ -304400,18 +304098,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work",
-      "target": "https://datacom.com/nz/en/discover/customer-story/funny-finder-new-functionality-for-festival-goers"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work",
-      "target": "https://datacom.com/nz/en/discover/customer-story/farmers-trading-company-and-datacom-47-years-of-payroll"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -309580,18 +309266,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/from-monotonous-to-wow-in-greater-bendigo",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/from-monotonous-to-wow-in-greater-bendigo",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/from-monotonous-to-wow-in-greater-bendigo",
-      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/from-monotonous-to-wow-in-greater-bendigo",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -311648,10 +311322,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
-      "target": "https://datacom.com/nz/en/legal/privacy-policy"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
       "target": "https://datacom.com/nz/en/about-us/partners/salesforce"
     },
     {
@@ -311664,23 +311334,15 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
-      "target": "https://datacom.com/nz/en/discover/articles/turning-servicenow-into-an-engine-for-business-value"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
-      "target": "https://datacom.com/nz/en/discover/articles/from-chaos-to-clarity-making-marketing-work"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
       "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/a-digital-boost-for-kiwi-small-businesses",
@@ -312700,18 +312362,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/olympus-gains-rapid-access-to-vital-sales-pipeline-reporting",
-      "target": "https://datacom.com/nz/en/discover/articles/digital-resilience-starts-with-the-right-infrastructure"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/olympus-gains-rapid-access-to-vital-sales-pipeline-reporting",
-      "target": "https://datacom.com/nz/en/discover/articles/make-strategic-data-protection-your-competitive-edge"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/olympus-gains-rapid-access-to-vital-sales-pipeline-reporting",
-      "target": "https://datacom.com/nz/en/discover/articles/what-the-ai-era-means-for-your-marketing-and-web-presence"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/olympus-gains-rapid-access-to-vital-sales-pipeline-reporting",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -313216,18 +312866,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/ddls-project-transforms-experience-for-it-training-customers",
-      "target": "https://datacom.com/nz/en/discover/customer-story/new-aa-app-simplifies-on-road-support-estimates-trip-costs"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/ddls-project-transforms-experience-for-it-training-customers",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/ddls-project-transforms-experience-for-it-training-customers",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/ddls-project-transforms-experience-for-it-training-customers",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -313725,18 +313363,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/fliways-smart-idea-inspires-secure-vaccine-record-solution",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/fliways-smart-idea-inspires-secure-vaccine-record-solution",
-      "target": "https://datacom.com/nz/en/discover/articles/getting-more-from-workday-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/fliways-smart-idea-inspires-secure-vaccine-record-solution",
-      "target": "https://datacom.com/nz/en/discover/articles/datapay-the-future-of-payroll-will-be-built-together"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/fliways-smart-idea-inspires-secure-vaccine-record-solution",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-ai-payroll-assistant-ushers-in-new-era-for-payroll"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/fliways-smart-idea-inspires-secure-vaccine-record-solution",
@@ -314240,18 +313866,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/rapid-response-helps-foodstuffs-support-stores-feed-communities",
-      "target": "https://datacom.com/nz/en/discover/ebook/managed-network-services-finding-the-right-fit"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/rapid-response-helps-foodstuffs-support-stores-feed-communities",
-      "target": "https://datacom.com/nz/en/discover/articles/greg-davidson-building-a-strong-foundation-for-the-future"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/rapid-response-helps-foodstuffs-support-stores-feed-communities",
-      "target": "https://datacom.com/nz/en/discover/articles/tony-carter-real-value-in-being-a-trusted-partner"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/rapid-response-helps-foodstuffs-support-stores-feed-communities",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -314749,18 +314363,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/farmlands-shift-to-hybrid-bricks-and-clicks-model-pays-off",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/farmlands-shift-to-hybrid-bricks-and-clicks-model-pays-off",
-      "target": "https://datacom.com/nz/en/discover/customer-story/new-aa-app-simplifies-on-road-support-estimates-trip-costs"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/farmlands-shift-to-hybrid-bricks-and-clicks-model-pays-off",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/farmlands-shift-to-hybrid-bricks-and-clicks-model-pays-off",
-      "target": "https://datacom.com/nz/en/discover/customer-story/datapay-payroll-giving-alden-aged-care-team-peace-of-mind"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/farmlands-shift-to-hybrid-bricks-and-clicks-model-pays-off",
@@ -315776,18 +315378,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/humm-from-growing-pains-to-growing-gains",
-      "target": "https://datacom.com/nz/en/discover/articles/how-generative-ai-is-shaping-end-user-experiences"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/humm-from-growing-pains-to-growing-gains",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-shines-at-auscontact-2025-excellence-awards"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/humm-from-growing-pains-to-growing-gains",
-      "target": "https://datacom.com/nz/en/discover/articles/indigenous-youth-connect-with-culture-and-career-potential"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/humm-from-growing-pains-to-growing-gains",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -316288,18 +315878,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/synlait-steps-up-its-cybersecurity",
-      "target": "https://datacom.com/nz/en/discover/articles/five-questions-you-should-ask-your-security-provider"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/synlait-steps-up-its-cybersecurity",
-      "target": "https://datacom.com/nz/en/discover/articles/what-resilience-looks-like-in-cybersecurity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/synlait-steps-up-its-cybersecurity",
-      "target": "https://datacom.com/nz/en/discover/articles/boroondara-selects-datascape-to-modernise-property-and-rates"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/synlait-steps-up-its-cybersecurity",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -316797,18 +316375,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/platform-transforms-iwi-engagement-at-nelson-city-council",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/platform-transforms-iwi-engagement-at-nelson-city-council",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/platform-transforms-iwi-engagement-at-nelson-city-council",
-      "target": "https://datacom.com/nz/en/discover/customer-story/datapay-payroll-giving-alden-aged-care-team-peace-of-mind"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/platform-transforms-iwi-engagement-at-nelson-city-council",
-      "target": "https://datacom.com/nz/en/discover/customer-story/digital-resilience-boost-for-critical-reserve-bank-systems"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/platform-transforms-iwi-engagement-at-nelson-city-council",
@@ -319876,18 +319442,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/helping-deliver-safe-equitable-water-services-for-new-zealanders",
-      "target": "https://datacom.com/nz/en/discover/customer-story/new-aa-app-simplifies-on-road-support-estimates-trip-costs"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/helping-deliver-safe-equitable-water-services-for-new-zealanders",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/helping-deliver-safe-equitable-water-services-for-new-zealanders",
-      "target": "https://datacom.com/nz/en/discover/customer-story/datapay-payroll-giving-alden-aged-care-team-peace-of-mind"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/helping-deliver-safe-equitable-water-services-for-new-zealanders",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -320904,18 +320458,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/new-crm-supporting-booking-surge-for-southland-event-experts",
-      "target": "https://datacom.com/nz/en/discover/customer-story/new-aa-app-simplifies-on-road-support-estimates-trip-costs"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/new-crm-supporting-booking-surge-for-southland-event-experts",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/new-crm-supporting-booking-surge-for-southland-event-experts",
-      "target": "https://datacom.com/nz/en/discover/customer-story/datapay-payroll-giving-alden-aged-care-team-peace-of-mind"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/new-crm-supporting-booking-surge-for-southland-event-experts",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -321925,18 +321467,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/hybrid-cloud-proves-a-game-changer-for-anzco",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/hybrid-cloud-proves-a-game-changer-for-anzco",
-      "target": "https://datacom.com/nz/en/discover/spotlight/using-tech-to-solve-problems-in-uncertain-times"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/hybrid-cloud-proves-a-game-changer-for-anzco",
-      "target": "https://datacom.com/nz/en/discover/customer-story/transforming-fire-prevention-inspections-at-wattle-range"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/hybrid-cloud-proves-a-game-changer-for-anzco",
-      "target": "https://datacom.com/nz/en/discover/customer-story/lion-pilots-smart-sustainable-beer-packaging"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/hybrid-cloud-proves-a-game-changer-for-anzco",
@@ -325528,18 +325058,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/hiko-the-chatbot-helping-up-to-5000-customers-every-month",
-      "target": "https://datacom.com/nz/en/discover/customer-story/new-aa-app-simplifies-on-road-support-estimates-trip-costs"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/hiko-the-chatbot-helping-up-to-5000-customers-every-month",
-      "target": "https://datacom.com/nz/en/discover/customer-story/wineworks-turns-platform-retirement-to-a-cloud-opportunity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/hiko-the-chatbot-helping-up-to-5000-customers-every-month",
-      "target": "https://datacom.com/nz/en/discover/customer-story/funny-finder-new-functionality-for-festival-goers"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/hiko-the-chatbot-helping-up-to-5000-customers-every-month",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -326556,18 +326074,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/virtual-assistant-a-game-changer-for-humm-group",
-      "target": "https://datacom.com/nz/en/discover/customer-story/funny-finder-new-functionality-for-festival-goers"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/virtual-assistant-a-game-changer-for-humm-group",
-      "target": "https://datacom.com/nz/en/discover/customer-story/moorabool-transforms-council-operations-with-datacom"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/virtual-assistant-a-game-changer-for-humm-group",
-      "target": "https://datacom.com/nz/en/discover/customer-story/datapay-keeps-tg-globals-payroll-running-smoothly"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/virtual-assistant-a-game-changer-for-humm-group",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -327065,18 +326571,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/new-parking-system-rewards-good-auckland-drivers",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/new-parking-system-rewards-good-auckland-drivers",
-      "target": "https://datacom.com/nz/en/discover/articles/five-questions-you-should-ask-your-security-provider"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/new-parking-system-rewards-good-auckland-drivers",
-      "target": "https://datacom.com/nz/en/discover/articles/what-resilience-looks-like-in-cybersecurity"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/customer-story/new-parking-system-rewards-good-auckland-drivers",
-      "target": "https://datacom.com/nz/en/discover/articles/boroondara-selects-datascape-to-modernise-property-and-rates"
     },
     {
       "source": "https://datacom.com/nz/en/discover/customer-story/new-parking-system-rewards-good-auckland-drivers",
@@ -363056,18 +362550,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/ebook/ebook-keep-knowledge-at-the-core-of-your-cx-and-ex",
-      "target": "https://datacom.com/nz/en/discover/articles/how-generative-ai-is-shaping-end-user-experiences"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/ebook/ebook-keep-knowledge-at-the-core-of-your-cx-and-ex",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-shines-at-auscontact-2025-excellence-awards"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/ebook/ebook-keep-knowledge-at-the-core-of-your-cx-and-ex",
-      "target": "https://datacom.com/nz/en/discover/articles/indigenous-youth-connect-with-culture-and-career-potential"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/ebook/ebook-keep-knowledge-at-the-core-of-your-cx-and-ex",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -376312,22 +375794,10 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified",
-      "target": "https://datacom.com/nz/en/discover/news/crowdstrike-response-to-windows-issue"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified",
       "target": "https://datacom.com/nz/en/search"
     },
     {
       "source": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-named-riverbed-innovation-partner-of-the-year"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified",
-      "target": "https://datacom.com/nz/en/discover/news/datacom-joins-servicenow-partner-programmes"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -377813,22 +377283,10 @@
     {
       "source": "https://datacom.com/nz/en/discover/news/datacom-one-of-gradnewzealands-top-100-graduate-employers",
       "target": "https://datacom.com/nz/en/solutions/experience/insights/state-of-ai-index-ai-attitudes"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/news/datacom-one-of-gradnewzealands-top-100-graduate-employers",
-      "target": "https://datacom.com/nz/en/discover/articles/ai-in-the-workplace-new-course-to-equip-future-tech-talent"
     },
     {
       "source": "https://datacom.com/nz/en/discover/news/datacom-one-of-gradnewzealands-top-100-graduate-employers",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/news/datacom-one-of-gradnewzealands-top-100-graduate-employers",
-      "target": "https://datacom.com/nz/en/discover/articles/datacom-first-foundation-pathways-for-young-talent-in-nz"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/news/datacom-one-of-gradnewzealands-top-100-graduate-employers",
-      "target": "https://datacom.com/nz/en/discover/articles/make-strategic-data-protection-your-competitive-edge"
     },
     {
       "source": "https://datacom.com/nz/en/discover/news/datacom-one-of-gradnewzealands-top-100-graduate-employers",
@@ -407204,18 +406662,6 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/press-release/datacom-group-announces-fy24-results",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-research-new-zealand-cyber-recovery-plans-lag"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/press-release/datacom-group-announces-fy24-results",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-acquires-t4-s-auckland-data-centre"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/press-release/datacom-group-announces-fy24-results",
-      "target": "https://datacom.com/nz/en/discover/press-release/funny-finder-expands-with-new-features-for-festival-goers"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/press-release/datacom-group-announces-fy24-results",
       "target": "https://datacom.com/nz/en/about-us/our-locations"
     },
     {
@@ -407721,18 +407167,6 @@
     {
       "source": "https://datacom.com/nz/en/discover/press-release/big-jump-in-ai-usage-in-kiwi-companies-but-guardrails-still-not-in-place",
       "target": "https://datacom.com/nz/en/search"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/press-release/big-jump-in-ai-usage-in-kiwi-companies-but-guardrails-still-not-in-place",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-research-new-zealand-cyber-recovery-plans-lag"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/press-release/big-jump-in-ai-usage-in-kiwi-companies-but-guardrails-still-not-in-place",
-      "target": "https://datacom.com/nz/en/discover/press-release/datacom-acquires-t4-s-auckland-data-centre"
-    },
-    {
-      "source": "https://datacom.com/nz/en/discover/press-release/big-jump-in-ai-usage-in-kiwi-companies-but-guardrails-still-not-in-place",
-      "target": "https://datacom.com/nz/en/discover/press-release/funny-finder-expands-with-new-features-for-festival-goers"
     },
     {
       "source": "https://datacom.com/nz/en/discover/press-release/big-jump-in-ai-usage-in-kiwi-companies-but-guardrails-still-not-in-place",
@@ -410844,6 +410278,1042 @@
     },
     {
       "source": "https://datacom.com/nz/en/discover/press-release/cybersecurity-index-reveals-dangerous-employee-disconnect",
+      "target": "https://datacom.com/nz/en/legal"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/business-platforms"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/data-intelligence-and-process-optimisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/software-engineering"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/ai-powered-engineering"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/digital-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-foundations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-for-productivity"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/ai-powered-engineering/ai-application-modernisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-assistant"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-sandpit"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/procurement"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/hardware-and-device-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/warehousing-and-logistics"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/procurement/datacom-store"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/vendor-relationship-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/hybrid-and-private"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/public"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/application-services/software-engineering/application-modernisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/connectivity"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/financial-operations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/innovation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/migration"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/operations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/data-protection"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/service-desk"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/experience-technology"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/workforce-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/frontline-assistance-support-tool"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/experience/customer-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/experience/digital-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/experience/employee-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/experience/insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services/it-support-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services/service-operations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services/technology-lifecycle-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/network-services/managed-lan-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/network-services/managed-wan-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/security"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/security/cybersecurity"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/security/protective-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/security/security-insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/software-management-and-licensing"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/software-management-and-licensing/software-asset-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/software-management-and-licensing/licensing-consultancy-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres/enterprise-solutions"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres/it-solution-aggregators"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres/saas-and-cloud"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres/high-density-and-power"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres/locations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/data-centres/global-growth"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/managed-payroll"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/mypay"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/direct-access"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-compliance"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/integrations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-implementation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-security"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/antenno"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/bookings"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/crm"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/fieldwork"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/financials"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/my-datascape"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/property-and-rating"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/regulatory-and-compliance"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/datascape/websites"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/gateway"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/gateway/datacom-message-manager"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/gateway/payment-gateway"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/timpani"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/transportation-and-logistics"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/products/timpani/digital-supply-chain"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/agriculture"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/education"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/energy-and-utilities"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/engineering-and-construction"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/financial-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/fmcg-and-retail"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/healthcare"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/manufacturing"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/public-sector/central-government"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/public-sector/local-government"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/media-entertainment-and-telecoms"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/professional-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/industries/tourism-and-hospitality"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/discover"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/who-we-are"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/our-team"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/sustainability"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/our-communities"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/partners"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/awards"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/year-in-review"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/contact-us"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/careers"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/careers/experienced-professionals"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/careers/graduates"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/careers/contact-centre-representatives"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/careers/why-datacom"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/careers/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/sign-in"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/insights/2024-annual-cloud-report"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/experience/insights/state-of-ai-index-ai-attitudes"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/partners/aws"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/solutions/cloud/public/aws-platform"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/discover/articles/the-revolutionary-role-ai-is-playing-in-app-modernisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/discover/spotlight/why-every-business-needs-an-ai-strategy"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/discover/customer-story/lion-pilots-smart-sustainable-beer-packaging"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/about-us/our-locations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/legal/gdpr-statement"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/legal/terms-of-use"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/aws-and-datacom-accelerating-cloud-migration-modernisation",
+      "target": "https://datacom.com/nz/en/legal"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/business-platforms"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/data-intelligence-and-process-optimisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/software-engineering"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/ai-powered-engineering"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/digital-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-foundations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-for-productivity"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/ai-powered-engineering/ai-application-modernisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-assistant"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/artificial-intelligence/ai-sandpit"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/procurement"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/hardware-and-device-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/warehousing-and-logistics"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/procurement/datacom-store"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/asset-lifecycle-services/vendor-relationship-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/hybrid-and-private"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/public"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/application-services/software-engineering/application-modernisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/connectivity"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/financial-operations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/innovation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/migration"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/operations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/data-protection"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/service-desk"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/experience-technology"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/workforce-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/business-process-outsourcing"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/contact-centres/frontline-assistance-support-tool"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/experience/customer-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/experience/digital-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/experience/employee-experience"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/experience/insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services/it-support-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services/service-operations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/managed-it-services/technology-lifecycle-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/network-services/managed-lan-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/network-services/managed-wan-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/security"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/security/cybersecurity"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/security/protective-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/security/security-insights"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/software-management-and-licensing"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/software-management-and-licensing/software-asset-management"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/software-management-and-licensing/licensing-consultancy-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres/enterprise-solutions"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres/it-solution-aggregators"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres/saas-and-cloud"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres/high-density-and-power"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres/locations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/data-centres/global-growth"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/managed-payroll"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/mypay"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/direct-access"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-compliance"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/integrations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-implementation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datapay/payroll-security"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/antenno"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/bookings"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/crm"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/fieldwork"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/financials"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/my-datascape"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/property-and-rating"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/regulatory-and-compliance"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/datascape/websites"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/gateway"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/gateway/datacom-message-manager"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/gateway/payment-gateway"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/timpani"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/transportation-and-logistics"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/products/timpani/digital-supply-chain"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/agriculture"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/education"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/energy-and-utilities"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/engineering-and-construction"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/financial-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/fmcg-and-retail"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/healthcare"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/manufacturing"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/public-sector/central-government"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/public-sector/local-government"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/media-entertainment-and-telecoms"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/professional-services"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/industries/tourism-and-hospitality"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/discover"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/who-we-are"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/our-team"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/sustainability"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/our-communities"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/partners"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/awards"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/year-in-review"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/contact-us"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/careers"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/careers/experienced-professionals"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/careers/graduates"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/careers/contact-centre-representatives"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/careers/why-datacom"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/careers/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/sign-in"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/cloud/insights/2024-annual-cloud-report"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/solutions/experience/insights/state-of-ai-index-ai-attitudes"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/discover/articles/ai-funny-finder-helping-people-pick-from-600-comedy-acts"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/discover/articles/the-revolutionary-role-ai-is-playing-in-app-modernisation"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/search"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/discover/articles/modernising-apps-turbocharging-new-platforms-with-ai-agents"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/discover/press-release/cybersecurity-index-reveals-dangerous-employee-disconnect"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/about-us/our-locations"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/discover/news/datacom-is-rainbow-tick-certified"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/legal/privacy-policy"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/legal/gdpr-statement"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
+      "target": "https://datacom.com/nz/en/legal/terms-of-use"
+    },
+    {
+      "source": "https://datacom.com/nz/en/discover/press-release/datacom-fy25-results-strong-revenue-remains-focus-on-ai",
       "target": "https://datacom.com/nz/en/legal"
     }
   ]

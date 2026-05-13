@@ -22,9 +22,9 @@
       "url": "https://datacom.com/nz/en",
       "scopePrefix": "/nz/en",
       "data": "graphs/datacom.json",
-      "crawledAt": "2026-05-13T07:47:11.002Z",
+      "crawledAt": "2026-05-13T08:17:31.792Z",
       "pages": 800,
-      "edges": 100499,
+      "edges": 100621,
       "filters": {
         "brokenTitlePatterns": [
           "^page not found",
