@@ -36,7 +36,7 @@ export default function App() {
   const [containerDims, setContainerDims] = useState({ w: 800, h: 600 })
 
   useEffect(() => {
-    fetch('/graph.json')
+    fetch(`${import.meta.env.BASE_URL}graph.json`)
       .then((r) => {
         if (!r.ok) throw new Error(`HTTP ${r.status}`)
         return r.json()
